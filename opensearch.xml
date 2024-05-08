@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>Paweł Kosiec, Full-stack Cloud Developer</ShortName>
-  <Description>Search Paweł Kosiec, Full-stack Cloud Developer</Description>
+  <ShortName>Embedded IDE For VSCode</ShortName>
+  <Description>Search Embedded IDE For VSCode</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://kosiec.dev/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://kosiec.dev/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://kosiec.dev/opensearch.xml" />
-  <moz:SearchForm>https://kosiec.dev/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://em-ide.com/images/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://em-ide.com/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://em-ide.com/opensearch.xml" />
+  <moz:SearchForm>https://em-ide.com/</moz:SearchForm>
 </OpenSearchDescription>

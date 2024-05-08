@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkosiec_dev=self.webpackChunkkosiec_dev||[]).push([[456],{544:e=>{e.exports=JSON.parse('{"label":"world","permalink":"/blog/tags/world","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Embedded IDE For VSCode Blog</title>
+        <link>https://em-ide.com/en/blog</link>
+        <description>Embedded IDE For VSCode Blog</description>
+        <lastBuildDate>Sat, 13 Aug 2022 16:41:21 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[First]]></title>
+            <link>https://em-ide.com/en/blog/index</link>
+            <guid>/index</guid>
+            <pubDate>Sat, 13 Aug 2022 16:41:21 GMT</pubDate>
+            <description><![CDATA[There are some eide blogs]]></description>
+        </item>
+    </channel>
+</rss>
