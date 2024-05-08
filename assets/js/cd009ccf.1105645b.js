@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearning_notes=self.webpackChunklearning_notes||[]).push([[9350],{7262:e=>{e.exports=JSON.parse('{"label":"object storage","permalink":"/blog/tags/object-storage","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);

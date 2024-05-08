@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearning_notes=self.webpackChunklearning_notes||[]).push([[35],{1118:s=>{s.exports=JSON.parse('{"label":"study","permalink":"/blog/tags/study","allTagsPath":"/blog/tags","count":10,"unlisted":false}')}}]);

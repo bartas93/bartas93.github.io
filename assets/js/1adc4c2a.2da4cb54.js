@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearning_notes=self.webpackChunklearning_notes||[]).push([[4195],{16679:e=>{e.exports=JSON.parse('{"label":"WSL","permalink":"/blog/tags/wsl","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

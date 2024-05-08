@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearning_notes=self.webpackChunklearning_notes||[]).push([[9650],{43610:e=>{e.exports=JSON.parse('{"label":"technology","permalink":"/blog/tags/technology","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);
