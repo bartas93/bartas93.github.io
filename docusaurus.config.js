@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Embedded IDE For VSCode',
-  tagline: 'A c/c++ development environment for mcs51/stm8/cortex-m/riscv microcontrollers',
-  url: 'https://em-ide.com',
+  title: 'Bartosz Jabłoński - IT Blog and Travel',
+  tagline: 'Personal Website | Programmer, Entrepreneur, Travel Enthusiast | Bartosz Jabłoński - IT Blog and Travel',
+  url: 'https://bartas93.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -18,18 +18,17 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'github0null', // Usually your GitHub org/user name.
-  projectName: 'eide', // Usually your repo name.
-
+  organizationName: 'bartas93', // Usually your GitHub org/user name.
+  projectName: 'bartas93.github.io', // Usually your repo name.
+  deploymentBranch: 'main',
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-cn',
-    locales: ['en', 'zh-cn'],
+    defaultLocale: 'en',
+    locales: ['en', 'pl'],
     localeConfigs: {
-      'zh-cn': {
-        htmlLang: 'zh',
+      'pl': {
+        htmlLang: 'pl',
       }
     }
   },
@@ -67,7 +66,12 @@ const config = {
         defaultMode: 'dark'
       },
       navbar: {
-        title: `Embedded IDE`,
+        title: `Bartosz Jabłoński`,
+        logo: {
+          alt: "Bartosz Jablonski Logo",
+          src: "images/logo.svg",
+          srcDark: "images/logo-white.svg",
+        },
         items: [
           {
             type: 'localeDropdown',
@@ -79,9 +83,9 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          /* {
+          {
             to: '/blog', label: 'Blog', position: 'left'
-          }, */
+          },
           {
             href: 'https://github.com/github0null/eide',
             label: 'GitHub',
@@ -132,31 +136,21 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} em-ide.com`,
+        copyright: `Copyright © ${new Date().getFullYear()} bartas93.github.io`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['ini', 'ignore', 'batch', 'powershell'],
+        additionalLanguages: ['ini', 'ignore', 'batch', 'powershell', 'java', 'json', 'bash'],
       },
       algolia: {
         
-        appId: 'GQJ2F17TSG',
-
-        apiKey: 'dd4a6214e345cc730aacb7c634a16cba',
-
-        indexName: 'em-ide',
-  
-        // 可选：见下文
+        appId: 'WZB7V822FZ',
+        apiKey: 'b88aa5d591294bdd3ade61968cf16354',
+        indexName: 'bartas93',
         contextualSearch: true,
-  
-        // 可选：声明哪些域名需要用 window.location 型的导航而不是 history.push。 适用于 Algolia 配置会爬取多个文档站点，而我们想要用 window.location.href 在它们之间跳转时。
-        externalUrlRegex: 'em-ide\\.com',
-  
-        // 可选：Algolia 搜索参数
+        externalUrlRegex: 'bartas93\\.github\\.io',
         searchParameters: {},
-  
-        // 可选：搜索页面的路径，默认启用（可以用 `false` 禁用）
         searchPagePath: 'search',
       },
     }),
