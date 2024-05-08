@@ -1,34 +1,42 @@
 {
-  "link.title.Docs": {
+  "link.title.Go to": {
     "message": "W skrócie",
-    "description": "The title of the footer links column with title=Docs in the footer"
+    "description": "The title of the footer links column with title=Go to in the footer"
   },
   "link.title.Community": {
-    "message": "社区",
+    "message": "Linki zewnętrzne",
     "description": "The title of the footer links column with title=Community in the footer"
   },
-  "link.title.More": {
-    "message": "更多",
-    "description": "The title of the footer links column with title=More in the footer"
+  "link.title.Contact me": {
+    "message": "Kontakt",
+    "description": "The title of the footer links column with title=Contact me in the footer"
   },
-  "link.item.label.Tutorial": {
-    "message": "教程",
-    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
+  "link.item.label.Portfolio": {
+    "message": "Portfolio",
+    "description": "The label of footer link with label=Portfolio linking to /"
   },
-  "link.item.label.Github Discussions": {
-    "message": "Github 论坛",
-    "description": "The label of footer link with label=Github Discussions linking to https://github.com/github0null/eide/discussions"
+  "link.item.label.Projects": {
+    "message": "Projekty",
+    "description": "The label of footer link with label=Projects linking to /docs/projects"
   },
-  "link.item.label.EIDE Forum": {
-    "message": "EIDE 论坛",
-    "description": "The label of footer link with label=EIDE Forum linking to https://discuss.em-ide.com"
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to /blog"
   },
-  "link.item.label.Embedded IDE": {
-    "message": "Embedded IDE",
-    "description": "The label of footer link with label=Embedded IDE linking to https://github.com/github0null/eide"
+  "link.item.label.Linkedin": {
+    "message": "Linkedin",
+    "description": "The label of footer link with label=Linkedin linking to https://www.linkedin.com/in/jablonski-bartosz93/"
   },
-  "link.item.label.Legacy Docs": {
-    "message": "旧版文档",
-    "description": "The label of footer link with label=Obsolete Docs linking to https://em-ide.com/docs/eide-manual"
+  "link.item.label.Github": {
+    "message": "Github",
+    "description": "The label of footer link with label=Github linking to https://github.com/bartas93"
+  },
+  "link.item.label.Email": {
+    "message": "Email",
+    "description": "The label of footer link with label=Email linking to mailto:jablonski.bartosz93@gmail.com"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 Bartosz Jabłoński",
+    "description": "The footer copyright"
   }
 }

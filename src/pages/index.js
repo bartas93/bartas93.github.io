@@ -5,6 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 import styles from './index.module.css'
+import Translate, {translate} from '@docusaurus/Translate';
 
 export default function Home() {
   const { siteConfig, i18n } = useDocusaurusContext();
@@ -23,7 +24,9 @@ export default function Home() {
           <div class="container">
             <div class="hero-inner">
               <div class="hero-copy">
-                <h1 class="hero-title mt-0">{siteConfig.title}</h1>
+
+                <h1 class="hero-title mt-0"><Translate>Bartosz Jabłoński - IT Blog and Travel</Translate></h1>
+
                 <p class="hero-paragraph">{siteConfig.tagline}</p>
                 <div class="hero-cta">
                   <a class="button button-primary" href={`${localePathRoot}/docs/intro`}>Getting Start</a>
