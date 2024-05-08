@@ -11,7 +11,7 @@ export default function Home() {
   let localePathRoot = '';
   if (i18n.currentLocale != i18n.defaultLocale) localePathRoot = '/' + i18n.currentLocale;
   return (
-    <Layout title={`Embedded IDE - A c/c++ development environment for microcontrollers`}>
+    <Layout title={`Portfolio`}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="landing_page/css/fonts.css" />

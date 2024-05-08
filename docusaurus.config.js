@@ -26,10 +26,10 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'pl'],
+    locales: ['en', 'pl-PL'],
     localeConfigs: {
-      'pl': {
-        htmlLang: 'pl',
+      'pl-PL': {
+        htmlLang: 'pl-PL',
       }
     }
   },
@@ -39,19 +39,8 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/github0null/eide-docs/tree/master',
-        },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/github0null/eide-docs/tree/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,28 +56,30 @@ const config = {
         defaultMode: 'dark'
       },
       navbar: {
-        title: `Bartosz Jabłoński`,
+        title: `Portfolio`,
         logo: {
           alt: "Bartosz Jablonski Logo",
           src: "images/logo.svg",
           srcDark: "images/logo-white.svg",
+          width: 150,
+//          height: 150,
         },
         items: [
           {
-            type: 'localeDropdown',
-            position: 'left',
-          },
-          {
             type: 'doc',
-            docId: 'intro',
+            docId: 'projects',
             position: 'left',
-            label: 'Docs',
+            label: 'Projects',
           },
           {
             to: '/blog', label: 'Blog', position: 'left'
           },
+           {
+            type: 'localeDropdown',
+            position: 'right',
+           },
           {
-            href: 'https://github.com/github0null/eide',
+            href: 'https://github.com/bartas93/',
             label: 'GitHub',
             position: 'right',
           },
@@ -102,7 +93,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/projects',
               },
             ],
           },
