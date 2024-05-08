@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklearning_notes=self.webpackChunklearning_notes||[]).push([[5916],{42363:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/monitor","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

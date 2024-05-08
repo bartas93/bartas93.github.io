@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklearning_notes=self.webpackChunklearning_notes||[]).push([[4761],{40007:e=>{e.exports=JSON.parse('{"label":"search engine","permalink":"/blog/tags/search-engine","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

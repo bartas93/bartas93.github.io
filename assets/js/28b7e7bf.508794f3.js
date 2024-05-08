@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklearning_notes=self.webpackChunklearning_notes||[]).push([[6544],{68785:s=>{s.exports=JSON.parse('{"label":"Addressables","permalink":"/blog/tags/addressables","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

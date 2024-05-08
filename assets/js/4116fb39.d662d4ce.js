@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklearning_notes=self.webpackChunklearning_notes||[]).push([[7349],{74294:e=>{e.exports=JSON.parse('{"label":"Hot Update","permalink":"/blog/tags/hot-update","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
