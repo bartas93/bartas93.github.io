@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://bartas93.github.io/pl/blog</id>
+    <title>Bartosz Jabłoński - IT Blog and Travel Blog</title>
+    <updated>2024-05-08T09:30:37.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://bartas93.github.io/pl/blog"/>
+    <subtitle>Bartosz Jabłoński - IT Blog and Travel Blog</subtitle>
+    <icon>https://bartas93.github.io/pl/images/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[First]]></title>
+        <id>/index</id>
+        <link href="https://bartas93.github.io/pl/blog/index"/>
+        <updated>2024-05-08T09:30:37.000Z</updated>
+        <summary type="html"><![CDATA[There are some eide blogs]]></summary>
+    </entry>
+</feed>
