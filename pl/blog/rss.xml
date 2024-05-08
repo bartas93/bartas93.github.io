@@ -1,19 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Bartosz Jabłoński - IT Blog and Travel Blog</title>
         <link>https://bartas93.github.io/pl/blog</link>
         <description>Bartosz Jabłoński - IT Blog and Travel Blog</description>
-        <lastBuildDate>Wed, 08 May 2024 09:30:37 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 May 2024 14:50:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
         <item>
-            <title><![CDATA[First]]></title>
-            <link>https://bartas93.github.io/pl/blog/index</link>
-            <guid>/index</guid>
-            <pubDate>Wed, 08 May 2024 09:30:37 GMT</pubDate>
-            <description><![CDATA[There are some eide blogs]]></description>
+            <title><![CDATA[Hello, world PL.]]></title>
+            <link>https://bartas93.github.io/pl/blog/hello-world</link>
+            <guid>hello-world</guid>
+            <pubDate>Wed, 08 May 2024 14:50:28 GMT</pubDate>
+            <description><![CDATA[PL 👋]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pl-">PL 👋<a class="hash-link" href="#pl-" title="Bezpośredni link do nagłówka">​</a></h3>]]></content:encoded>
+            <category>shorts</category>
+            <category>hello</category>
+            <category>world</category>
+            <category>introduction</category>
+        </item>
+        <item>
+            <title><![CDATA[Calculating PL TODO]]></title>
+            <link>https://bartas93.github.io/pl/blog/calculating-string-footprint</link>
+            <guid>calculating-string-footprint</guid>
+            <pubDate>Wed, 08 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Short:]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="short">Short:<a class="hash-link" href="#short" title="Bezpośredni link do nagłówka">​</a></h3><p>PL</p>]]></content:encoded>
+            <category>jvm</category>
+            <category>jol</category>
+            <category>footprint</category>
+            <category>string</category>
         </item>
     </channel>
 </rss>

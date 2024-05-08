@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeide_docs=self.webpackChunkeide_docs||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"First","permalink":"/blog/index"}]}')}}]);
