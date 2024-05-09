@@ -49,6 +49,7 @@ export default function Portfolio() {
             </div>
           </div>
         </section>
+
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -171,7 +172,7 @@ export default function Portfolio() {
             contentArrowStyle={{
               borderRight: "7px solid  rgba(255, 255, 255, 0.1)",
             }}
-            date="03.2020 - 06.2020"
+            date="07.2019 - 03.2020"
             iconStyle={{ background: "#25c2a0", color: "#fff" }}
             icon={<WorkIcon />}
           >
@@ -187,129 +188,148 @@ export default function Portfolio() {
             </h4>
             <p>
               <Translate id="portfolio.work.finastra.description">
-              Entire communication in English) Spring boot 2+, Java 8 MongoDb, Postman, Oauth2,OpenId Connect, Kubernetes, Azure, Jira, Microservices
-                Software designing and implementation, analysing and solving complex engineering problems, creating and reviewing requirements and functional design, diagnosing and troubleshooting software faults, integration and testing software
+                Entire communication in English. Tech stack: Spring boot 2+,
+                Java 8 MongoDb, Postman, Oauth2,OpenId Connect, Kubernetes,
+                Azure, Jira, Microservices Software designing and
+                implementation, analysing and solving complex engineering
+                problems, creating and reviewing requirements and functional
+                design, diagnosing and troubleshooting software faults,
+                integration and testing software
+              </Translate>
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{
+              background: "rgba(255, 255, 255, 0.1)",
+              color: "#fff",
+            }}
+            contentArrowStyle={{
+              borderRight: "7px solid  rgba(255, 255, 255, 0.1)",
+            }}
+            date="05.2018 - 07.2019"
+            iconStyle={{ background: "#25c2a0", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              <Translate id="portfolio.work.solwit.name">Solwit SA</Translate>
+            </h3>
+            <img src="portfolio/Solwi-sa.jpg" alt="Solwit SA" />
+            <h4 className="vertical-timeline-element-subtitle">
+              <Translate id="portfolio.work.solwit.role">
+                Junior Java Developer
+              </Translate>
+            </h4>
+            <p>
+              <Translate id="portfolio.work.solwit.envira.description">
+                01.2019 – 07.2019 (Envira project) – Spring, Spring MVC,
+                JSP,JavaScript, Jooq, Docker, Jira, Bamboo, Upsource, Git
+              </Translate>
+              <br />
+              <Translate id="portfolio.work.solwit.intel.description">
+                05.2018 - 12.2018 (Intel project) – Spring boot, Angular
+                5(TypeScript), Gradle, Jenkins, Docker, PostgreSql, VSTS, Git
+              </Translate>
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{
+              background: "rgba(255, 255, 255, 0.1)",
+              color: "#fff",
+            }}
+            contentArrowStyle={{
+              borderRight: "7px solid  rgba(255, 255, 255, 0.1)",
+            }}
+            date="06.2020 - 01.2023"
+            iconStyle={{ background: "#25c2a0", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              <Translate id="portfolio.work.capgemini.name">
+                Capgemini
+              </Translate>
+            </h3>
+            <img src="portfolio/capgemini-office.jpg" alt="Capgemini" />
+            <h4 className="vertical-timeline-element-subtitle">
+              <Translate id="portfolio.work.capgemini.role">
+                Internship Java Developer
+              </Translate>
+            </h4>
+            <p>
+              <Translate id="portfolio.work.lpp.capgemini">
+                For 3 months I was learning basics of java, spring, jpa,
+                sql,javascript, angular 4 under the guidance of Capgemini
+                experts.
               </Translate>
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="April 2013"
-            iconStyle={{ background: "#25c2a0", color: "#fff" }}
-            icon={<SchoolIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Content Marketing for Web, Mobile and Social Media
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Online Course
-            </h4>
-            <p>Strategy, Social Media</p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="November 2012"
+            date="10.2016 - 02.2018"
+            contentStyle={{
+              background: "rgba(255, 255, 255, 0.1)",
+              color: "#fff",
+            }}
+            contentArrowStyle={{
+              borderRight: "7px solid  rgba(255, 255, 255, 0.1)",
+            }}
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             icon={<SchoolIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              Agile Development Scrum Master
+              <Translate id="portfolio.education.pwr.name">
+                Wroclaw University of Science and Technology
+              </Translate>
             </h3>
+            <img src="portfolio/pwr.jpg" alt="Politechnika Wroclawska" />
             <h4 className="vertical-timeline-element-subtitle">
-              Certification
+              <Translate id="portfolio.education.degree.master">
+                Second degree of Computer Science
+              </Translate>
             </h4>
-            <p>Creative Direction, User Experience, Visual Design</p>
+            <p>
+              <Translate id="portfolio.education.degree.master.thesis">
+                Master’s thesis consists in designing an application for
+                managing a restaurant - FeedServ. Then,implement the module to
+                manage orders and examine the usability (UX) of this module
+                (used technologies angular 4 and spring boot).
+              </Translate>
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="2002 - 2006"
+            date="10.2012 - 06.2016"
+            contentStyle={{
+              background: "rgba(255, 255, 255, 0.1)",
+              color: "#fff",
+            }}
+            contentArrowStyle={{
+              borderRight: "7px solid  rgba(255, 255, 255, 0.1)",
+            }}
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             icon={<SchoolIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              Bachelor of Science in Interactive Digital Media Visual Imaging
+              <Translate id="portfolio.education.pwr.name">
+                Wroclaw University of Science and Technology
+              </Translate>
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Bachelor Degree
+              <Translate id="portfolio.education.degree.bachelor">
+                First degree of Civil Engineering
+              </Translate>
             </h4>
-            <p>Creative Direction, Visual Design</p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
             icon={<StarIcon />}
           />
         </VerticalTimeline>
-
-        <section class="hero">
-          <div class="container">
-            <div class="hero-inner">
-              <div class="hero-copy">
-                <h1 class="hero-title mt-0">{siteConfig.title}</h1>
-                <p class="hero-paragraph">{siteConfig.tagline}</p>
-                <div class="hero-cta">
-                  <a
-                    class="button button-primary"
-                    href={`${localePathRoot}/docs/intro`}
-                  >
-                    Getting Start
-                  </a>
-                  <a
-                    class="button"
-                    href="https://marketplace.visualstudio.com/items?itemName=CL.eide"
-                  >
-                    Install
-                  </a>
-                </div>
-              </div>
-              <div class="hero-figure anime-element">
-                <svg
-                  class="placeholder"
-                  width="528"
-                  height="396"
-                  viewBox="0 0 528 396"
-                >
-                  <rect
-                    width="528"
-                    height="396"
-                    style={{ fill: "transparent" }}
-                  />
-                </svg>
-                <div
-                  class="hero-figure-box hero-figure-box-01"
-                  data-rotation="45deg"
-                ></div>
-                <div
-                  class="hero-figure-box hero-figure-box-02"
-                  data-rotation="-45deg"
-                ></div>
-                <div
-                  class="hero-figure-box hero-figure-box-03"
-                  data-rotation="0deg"
-                ></div>
-                <div
-                  class="hero-figure-box hero-figure-box-04"
-                  data-rotation="-135deg"
-                ></div>
-                <div class="hero-figure-box hero-figure-box-05"></div>
-                <div class="hero-figure-box hero-figure-box-06"></div>
-                <div class="hero-figure-box hero-figure-box-07"></div>
-                <div
-                  class="hero-figure-box hero-figure-box-08"
-                  data-rotation="-22deg"
-                ></div>
-                <div
-                  class="hero-figure-box hero-figure-box-09"
-                  data-rotation="-52deg"
-                ></div>
-                <div
-                  class="hero-figure-box hero-figure-box-10"
-                  data-rotation="-50deg"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </section>
 
         <section class="features section">
           <div class="container">
