@@ -44,8 +44,9 @@ export default function Home() {
           <div class="container">
             <div class="hero-inner">
               <div class="hero-copy">
+
                 <animated.div style={animatedTexts[0]}>
-                  <h1 class="hero-title mt-0">{siteConfig.title}</h1>
+                  <h1 class="hero-title mt-0"><Translate>Bartosz Jabłoński - IT Blog and Travel</Translate></h1>
                 </animated.div>
                 <animated.div style={animatedTexts[1]}>
                   <p class="hero-paragraph">{siteConfig.tagline}</p>
@@ -67,6 +68,7 @@ export default function Home() {
                     </a>
                   </div>
                 </animated.div>
+
               </div>
 
               <animated.div

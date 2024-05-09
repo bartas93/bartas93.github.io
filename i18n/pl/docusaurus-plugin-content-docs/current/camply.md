@@ -2,5 +2,5 @@
 sidebar_position: 2
 ---
 
-# Camply PL
+# Camply
 Camply - Polish marketplace for summer camps

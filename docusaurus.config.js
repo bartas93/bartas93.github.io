@@ -26,10 +26,10 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'pl-PL'],
+    locales: ['en', 'pl'],
     localeConfigs: {
-      'pl-PL': {
-        htmlLang: 'pl-PL',
+      'pl': {
+        htmlLang: 'pl',
       }
     }
   },
@@ -62,7 +62,6 @@ const config = {
           src: "images/logo.svg",
           srcDark: "images/logo-white.svg",
           width: 150,
-//          height: 150,
         },
         items: [
           {
@@ -92,11 +91,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Go to',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Portfolio',
+                to: '/',
+              },
+              {
+                label: 'Projects',
                 to: '/docs/projects',
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
               },
             ],
           },
@@ -104,34 +111,26 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'EIDE Forum',
-                href: 'https://discuss.em-ide.com',
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/jablonski-bartosz93/',
               },
               {
-                label: 'Github Issues',
-                href: 'https://github.com/github0null/eide/issues',
-              },
-              {
-                label: 'Github Discussions',
-                href: 'https://github.com/github0null/eide/discussions',
+                label: 'Github',
+                href: 'https://github.com/bartas93',
               }
             ],
           },
           {
-            title: 'More',
+            title: 'Contact me',
             items: [
               {
-                label: 'Source Code',
-                href: 'https://github.com/github0null/eide',
+                label: 'Email',
+                href: 'mailto:jablonski.bartosz93@gmail.com',
               },
-              {
-                label: 'SourceForge',
-                href: 'https://em-ide.sourceforge.io/'
-              }
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} bartas93.github.io`,
+        copyright: `Copyright © ${new Date().getFullYear()} Bartosz Jabłoński`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -139,7 +138,7 @@ const config = {
         additionalLanguages: ['ini', 'ignore', 'batch', 'powershell', 'java', 'json', 'bash'],
       },
       algolia: {
-        
+
         appId: 'WZB7V822FZ',
         apiKey: 'b88aa5d591294bdd3ade61968cf16354',
         indexName: 'bartas93',
