@@ -344,11 +344,16 @@ export default function Portfolio() {
                       />
                     </div>
                     <h4 class="feature-title mt-24">
-                      Better Coding Experience
+                      SKILLS
                     </h4>
                     <p class="text-sm mb-0">
-                      On VSCode, we can get a much better coding experience.
-                      This helps improve efficiency and reduces coding errors.
+Programming languages: Java, Mule 4, Sql
+(Additionally I wrote some apps using JavaScript, Python)
+Frameworks: Spring, Spring Boot, Mule 4, RabbitMq, ToolJet
+Cloud: GCP (GKE, Functions, Storage, Pub/Sub, Scheduler,
+IAM, Google Shell, Firebase, Cloud Registry, App Engine)
+Others: Kubernetes, Docker, Maven, Git, Gitlab CI,
+Enterprise Architect, Agile, Scrum
                     </p>
                   </div>
                 </div>
@@ -361,13 +366,13 @@ export default function Portfolio() {
                       />
                     </div>
                     <h4 class="feature-title mt-24">
-                      Unify Development Environment
+                      Cloud And Other Certificates /gcp
                     </h4>
                     <p class="text-sm mb-0">
-                      This plug-in support many kinds of compiler, project type,
-                      flasher, utility tools. You don't have to switch between
-                      multiple development environments. It's enough that work
-                      with VsCode.
+                      Languages
+                      English (C1)
+                      Polish (Native)
+                      Russian (A1)
                     </p>
                   </div>
                 </div>
@@ -380,7 +385,7 @@ export default function Portfolio() {
                       />
                     </div>
                     <h4 class="feature-title mt-24">
-                      Supported Many Kinds Of MCU
+                      Visited Countries
                     </h4>
                     <p class="text-sm mb-0">
                       We support <strong>8</strong> kinds of compilers that can
