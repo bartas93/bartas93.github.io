@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeide_docs=self.webpackChunkeide_docs||[]).push([[1721],{939:e=>{e.exports=JSON.parse('{"label":"jol","permalink":"/pl-PL/blog/tags/jol","allTagsPath":"/pl-PL/blog/tags","count":1}')}}]);

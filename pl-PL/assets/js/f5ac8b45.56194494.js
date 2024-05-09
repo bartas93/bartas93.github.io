@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeide_docs=self.webpackChunkeide_docs||[]).push([[9189],{1912:e=>{e.exports=JSON.parse('{"label":"footprint","permalink":"/pl-PL/blog/tags/footprint","allTagsPath":"/pl-PL/blog/tags","count":1}')}}]);

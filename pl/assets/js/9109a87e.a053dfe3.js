@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeide_docs=self.webpackChunkeide_docs||[]).push([[3027],{8820:e=>{e.exports=JSON.parse('{"permalink":"/pl/blog/tags/footprint","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
