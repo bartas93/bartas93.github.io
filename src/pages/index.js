@@ -5,8 +5,28 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 import styles from './index.module.css'
+import { useTrail, animated, useSpring } from "@react-spring/web";
+import Translate from '@docusaurus/Translate';
 
 export default function Home() {
+const animatedHero = useSpring({
+    opacity: 1,
+    transform: "translateX(0)",
+    from: { opacity: 0, transform: "translateX(8em)" },
+    config: { mass: 2, tension: 260, friction: 30 },
+    delay: 600,
+  });
+  const animatedTexts = useTrail(5, {
+    from: { opacity: 0, transform: "translateY(3em)" },
+    to: { opacity: 1, transform: "translateY(0)" },
+    config: {
+      mass: 3,
+      friction: 45,
+      tension: 460,
+    },
+    delay: 200,
+  });
+
   const { siteConfig, i18n } = useDocusaurusContext();
   let localePathRoot = '';
   if (i18n.currentLocale != i18n.defaultLocale) localePathRoot = '/' + i18n.currentLocale;
@@ -23,13 +43,22 @@ export default function Home() {
           <div class="container">
             <div class="hero-inner">
               <div class="hero-copy">
+                 <animated.div style={animatedTexts[0]}>
                 <h1 class="hero-title mt-0">{siteConfig.title}</h1>
+                </animated.div>
+                 <animated.div style={animatedTexts[1]}>
                 <p class="hero-paragraph">{siteConfig.tagline}</p>
+                </animated.div>
+
+                 <animated.div style={animatedTexts[2]}>
                 <div class="hero-cta">
                   <a class="button button-primary" href={`${localePathRoot}/docs/intro`}>Getting Start</a>
-                  <a class="button" href="https://marketplace.visualstudio.com/items?itemName=CL.eide">Install</a></div>
+                  <a class="button" href="https://marketplace.visualstudio.com/items?itemName=CL.eide">Install</a>
+                  </div>
+                </animated.div>
               </div>
-              <div class="hero-figure anime-element">
+
+              <animated.div style={animatedHero} class="hero-figure anime-element">
                 <svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
                   <rect width="528" height="396" style={{ fill: 'transparent' }} />
                 </svg>
@@ -43,7 +72,7 @@ export default function Home() {
                 <div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>
                 <div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>
                 <div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>
-              </div>
+              </animated.div>
             </div>
           </div>
         </section>

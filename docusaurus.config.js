@@ -56,7 +56,7 @@ const config = {
         defaultMode: 'dark'
       },
       navbar: {
-        title: `Portfolio`,
+        title: `Home`,
         logo: {
           alt: "Bartosz Jablonski Logo",
           src: "images/logo.svg",
@@ -65,6 +65,9 @@ const config = {
 //          height: 150,
         },
         items: [
+          {
+            to: '/portfolio', label: 'Portfolio', position: 'left'
+          },
           {
             type: 'doc',
             docId: 'projects',
