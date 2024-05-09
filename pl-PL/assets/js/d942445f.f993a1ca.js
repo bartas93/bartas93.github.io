@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeide_docs=self.webpackChunkeide_docs||[]).push([[7118],{5964:e=>{e.exports=JSON.parse('{"label":"world","permalink":"/pl-PL/blog/tags/world","allTagsPath":"/pl-PL/blog/tags","count":1}')}}]);
