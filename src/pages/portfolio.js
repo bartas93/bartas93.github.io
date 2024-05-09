@@ -388,8 +388,8 @@ Enterprise Architect, Agile, Scrum
                       Visited Countries
                     </h4>
                     <p class="text-sm mb-0">
-                      We support <strong>8</strong> kinds of compilers that can
-                      be used to compile{" "}
+                      M.Sc., engineer
+                      Senior Java developer
                       <strong>
                         mcs51/stm8/cortex-m[0/0+/3/23/33/35p/4/7]/riscv
                       </strong>{" "}
