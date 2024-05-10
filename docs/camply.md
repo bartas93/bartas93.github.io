@@ -4,14 +4,13 @@ sidebar_position: 3
 
 # Camply.pl
 ## Polish marketplace for camps and semi-camps
+![Camply.pl home page](/docs_img/camply/camply.webp)
 
 ### My role
 
 The application was co-created by 3 co-founders. I was the owner of the company and was responsible for: application backend, database, finances, settlements and for some contacts with customers and partners. I actively participated in sales and marketing activities.
 
 ### More details about platform
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/28a59233-3701-4968-bcfd-52f1146605f0/e54287dc-5cd5-46a4-8bd3-fbbcd45e6cf8/Untitled.png)
 
 Camply is a platform where you could get to know the offers of many travel agencies organizing holidays for children and teenagers. The offers were uniformly constructed, which allowed for easy comparison of many offers. Ratings from previous customers helped when choosing a trip. Customers could easily and quickly book a place on the trip, pay an advance payment or the entire reservation, and contact the organizer to clarify any inaccuracies.
 
@@ -29,7 +28,7 @@ Camply is an online platform that was launched in production in March 2020. The 
 
 We had integration with three larger offices (automatic update of offers) - we provided them with API and documentation in the form of [OpenApi along with Postman](https://gitlab.com/bart_as93/camply-integration-docs/-/blob/master/openApi.yaml?ref_type=heads) documentation
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/28a59233-3701-4968-bcfd-52f1146605f0/970bd347-9668-4094-83a8-66c5af48949e/Untitled.png)
+![Camply partners](/docs_img/camply/Partnerzy.png)
 
 ### Technologies
 
@@ -54,26 +53,36 @@ The main difficulty of the search engine was the search based on the place of de
 
 Mailing in the application was designed from scratch and is based on rabbitMq queuing to protect against possible system errors. Thanks to this procedure, we were sure that all e-mails were sent to customers and that our mailing would not be classified as spam.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/28a59233-3701-4968-bcfd-52f1146605f0/7ea9ffba-1888-4147-a429-6c2f5866caad/Untitled.png)
+![Camply mail](/docs_img/camply/Camply_mailing.png)
 
-### Integration with the polish payment systemPaynow (mbank)
+### Integration with the polish payment system Paynow (mbank)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/28a59233-3701-4968-bcfd-52f1146605f0/e33bc8c6-3a77-49c6-a969-6efb54219eab/Untitled.png)
+![Camply payment gateway](/docs_img/camply/Camply_platnosci.png)
 
 ### OAuth - Login with Google and Facebook
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/28a59233-3701-4968-bcfd-52f1146605f0/407b2a35-b808-40bf-b949-9daad8159f11/Untitled.png)
+![Camply login](/docs_img/camply/Camply_OAuth.png)
 
 ### Chat based on google functions and firebase database and react components
 
 ### And more:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/28a59233-3701-4968-bcfd-52f1146605f0/4f268663-cf04-4bb7-90e3-17ae2c400823/Untitled.png)
+![Camply admin pannel](/docs_img/camply/Camply_tooljet_zarzadzanie.png)
+![Camply reviews](/docs_img/camply/Camply_opinie.png)
+![Camply how it works for partners](/docs_img/camply/Jak_dziala_Camply.png)
 
-TODO - 5 innych zdjeć
+### Demo Reservation
 
-### Demo
+![Reservation demo](/docs_img/camply/Camply_rezerwacja_i_platnosc.gif)
 
-- Reservation demonstration
+### Demo of adding offers
 
-- Demonstration of adding offers
+![Adding offer demo](/docs_img/camply/Camply_adding_offer_demo.gif)
+
+### Demo of chat
+
+![Camply chat demo](/docs_img/camply/chat.gif)
+
+### Demo of search engine
+
+![Camply search engine demo](/docs_img/camply/Camply_wyszukiwanie.gif)

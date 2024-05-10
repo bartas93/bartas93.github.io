@@ -32,14 +32,14 @@ export default function Home() {
   if (i18n.currentLocale != i18n.defaultLocale)
     localePathRoot = "/" + i18n.currentLocale;
   return (
-    <Layout title={`Portfolio`}>
+    <Layout title={`Home`}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="landing_page/css/fonts.css" />
-        <link rel="stylesheet" href="landing_page/css/style.css" />
+        {/*<link rel="stylesheet" href="landing_page/css/fonts.css" />*/}
+        {/*<link rel="stylesheet" href="landing_page/css/style.css" />*/}
         <script src="landing_page/js/preset.js"></script>
       </Head>
-      <main class="landing-page">
+      <main>
         <section class="hero">
           <div class="container">
             <div class="hero-inner">
@@ -55,7 +55,7 @@ export default function Home() {
                 <animated.div style={animatedTexts[2]}>
                   <div class="hero-cta">
                     <a
-                      class="button button-primary"
+                      class="inline-flex items-center px-4 py-2 bg-blue-500 border border-transparent rounded-md font-semibold text-white hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-700 active:bg-blue-800"
                       href={`${localePathRoot}/docs/intro`}
                     >
                       Getting Start
@@ -138,7 +138,7 @@ export default function Home() {
                     <h4 class="feature-title mt-24">
                       Better Coding Experience
                     </h4>
-                    <p class="text-sm mb-0">
+                    <p class="text-center">
                       On VSCode, we can get a much better coding experience.
                       This helps improve efficiency and reduces coding errors.
                     </p>

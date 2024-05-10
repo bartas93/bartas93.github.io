@@ -1,5 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+// import tailwindPlugin from "./plugins/tailwind-config.cjs"; // add this
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -21,7 +22,20 @@ const config = {
   organizationName: 'bartas93', // Usually your GitHub org/user name.
   projectName: 'bartas93.github.io', // Usually your repo name.
   deploymentBranch: 'main',
-
+  plugins:[
+    'plugin-image-zoom',
+      async function myPlugin(context, options) {
+    return {
+      name: "docusaurus-tailwindcss",
+      configurePostCss(postcssOptions) {
+        // Appends TailwindCSS and AutoPrefixer.
+        postcssOptions.plugins.push(require("postcss-import"));
+        postcssOptions.plugins.push(require("tailwindcss"));
+        postcssOptions.plugins.push(require("autoprefixer"));
+        return postcssOptions;
+      },
+    };
+  },],
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   i18n: {
@@ -50,13 +64,13 @@ const config = {
   ],
 
   themeConfig:
+
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
         defaultMode: 'dark'
       },
       navbar: {
-        title: `Home`,
         logo: {
           alt: "Bartosz Jablonski Logo",
           src: "images/logo.svg",
@@ -65,7 +79,7 @@ const config = {
         },
         items: [
           {
-            to: '/portfolio', label: 'Portfolio', position: 'left'
+            to: '/about', label: 'About', position: 'left'
           },
           {
             type: 'doc',
@@ -94,8 +108,12 @@ const config = {
             title: 'Go to',
             items: [
               {
-                label: 'Portfolio',
+                label: 'Home',
                 to: '/',
+              },
+              {
+                label: 'About',
+                to: '/about',
               },
               {
                 label: 'Projects',
@@ -146,6 +164,17 @@ const config = {
         externalUrlRegex: 'bartas93\\.github\\.io',
         searchParameters: {},
         searchPagePath: 'search',
+      },
+      imageZoom: {
+        // CSS selector to apply the plugin to, defaults to '.markdown img'
+        selector: '.markdown img',
+        // Optional medium-zoom options
+        // see: https://www.npmjs.com/package/medium-zoom#options
+        options: {
+          margin: 24,
+          background: 'rgba(0,0,0,0.4)',
+          scrollOffset: 0,
+        },
       },
     }),
 };
