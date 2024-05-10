@@ -15,8 +15,22 @@ import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
 import StarIcon from "@mui/icons-material/Star";
 import Translate from "@docusaurus/Translate";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function Portfolio() {
+const sliderSettings = {
+      dots: false,
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 500,
+      cssEase: "linear"
+    };
+
   const { siteConfig, i18n } = useDocusaurusContext();
   let localePathRoot = "";
   if (i18n.currentLocale != i18n.defaultLocale)
@@ -48,6 +62,34 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
+        </section>
+        <section>
+        <Slider {...sliderSettings}>
+                  <div className="container">
+                    <img className="logo-slider white-logo-slider" src="portfolio/companies/lpp.svg" />
+                  </div>
+                  <div className="container">
+                    <img className="logo-slider white-logo-slider" src="portfolio/companies/unitygroup.svg" />
+                  </div>
+                  <div className="container">
+                    <img className="logo-slider white-logo-slider" src="portfolio/companies/intel.svg" />
+                  </div>
+                  <div className="container">
+                    <img className="logo-slider white-logo-slider" src="portfolio/companies/solwit-white.svg" />
+                  </div>
+                  <div className="container">
+                    <img className="logo-slider white-logo-slider" src="portfolio/companies/finastra.svg" />
+                  </div>
+                  <div className="container">
+                    <img className="logo-slider white-logo-slider" src="portfolio/companies/envira.webp" />
+                  </div>
+                  <div className="container">
+                    <img className="logo-slider white-logo-slider" src="portfolio/companies/capgemini.svg" />
+                  </div>
+                  <div className="container">
+                    <img className="logo-slider white-logo-slider" src="portfolio/companies/abc-elektro.webp" />
+                  </div>
+                </Slider>
         </section>
 
         <VerticalTimeline>

@@ -139,9 +139,9 @@ const config = {
       },
       algolia: {
 
-        appId: 'WZB7V822FZ',
-        apiKey: 'b88aa5d591294bdd3ade61968cf16354',
-        indexName: 'bartas93',
+        appId: 'M3DHZC040W',
+        apiKey: 'ae17c845b82bc6d72f3b63600663865d',
+        indexName: 'bartas93io',
         contextualSearch: true,
         externalUrlRegex: 'bartas93\\.github\\.io',
         searchParameters: {},
