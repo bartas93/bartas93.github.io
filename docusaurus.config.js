@@ -126,8 +126,25 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Projects',
             items: [
+              {
+                label: 'T8t - discord bot',
+                to: '/docs/category/t8t---discord-tournaments',
+              },
+              {
+                label: 'Camply',
+                to: '/docs/camply',
+              },
+            ],
+          },
+          {
+            title: 'External',
+            items: [
+              {
+                label: 'Contact via Email',
+                href: 'mailto:jablonski.bartosz93@gmail.com',
+              },
               {
                 label: 'Linkedin',
                 href: 'https://www.linkedin.com/in/jablonski-bartosz93/',
@@ -136,15 +153,6 @@ const config = {
                 label: 'Github',
                 href: 'https://github.com/bartas93',
               }
-            ],
-          },
-          {
-            title: 'Contact me',
-            items: [
-              {
-                label: 'Email',
-                href: 'mailto:jablonski.bartosz93@gmail.com',
-              },
             ],
           },
         ],

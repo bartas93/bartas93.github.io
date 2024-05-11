@@ -1,194 +1,132 @@
 import React from "react";
-import clsx from "clsx";
-import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import Head from "@docusaurus/Head";
-import styles from "./index.module.css";
-import { useTrail, animated, useSpring } from "@react-spring/web";
 import Translate from "@docusaurus/Translate";
+import {Slide} from "react-awesome-reveal";
 
 export default function Home() {
-  const animatedHero = useSpring({
-    opacity: 1,
-    transform: "translateX(0)",
-    from: { opacity: 0, transform: "translateX(8em)" },
-    config: { mass: 2, tension: 260, friction: 30 },
-    delay: 600,
-  });
-  const animatedTexts = useTrail(5, {
-    from: { opacity: 0, transform: "translateY(3em)" },
-    to: { opacity: 1, transform: "translateY(0)" },
-    config: {
-      mass: 3,
-      friction: 45,
-      tension: 460,
-    },
-    delay: 200,
-  });
 
-  const { siteConfig, i18n } = useDocusaurusContext();
-  let localePathRoot = "";
-  if (i18n.currentLocale != i18n.defaultLocale)
-    localePathRoot = "/" + i18n.currentLocale;
-  return (
-    <Layout title={`Home`}>
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/*<link rel="stylesheet" href="landing_page/css/fonts.css" />*/}
-        {/*<link rel="stylesheet" href="landing_page/css/style.css" />*/}
-        <script src="landing_page/js/preset.js"></script>
-      </Head>
-      <main>
-        <section class="hero">
-          <div class="container">
-            <div class="hero-inner">
-              <div class="hero-copy">
+    const {siteConfig, i18n} = useDocusaurusContext();
+    let localePathRoot = "";
+    if (i18n.currentLocale != i18n.defaultLocale)
+        localePathRoot = "/" + i18n.currentLocale;
+    return (
+        <Layout title={`Home`}>
+            <Head>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                {/*<link rel="stylesheet" href="landing_page/css/fonts.css" />*/}
+                {/*<link rel="stylesheet" href="landing_page/css/style.css" />*/}
+                <script src="landing_page/js/preset.js"></script>
+            </Head>
+            <main>
+                <section className="hero">
 
-                <animated.div style={animatedTexts[0]}>
-                  <h1 class="hero-title mt-0"><Translate>Bartosz Jabłoński - IT Blog and Travel</Translate></h1>
-                </animated.div>
-                <animated.div style={animatedTexts[1]}>
-                  <p class="hero-paragraph">{siteConfig.tagline}</p>
-                </animated.div>
+                    <div className="container mx-auto md:px-30 flex flex-wrap flex-col md:flex-row items-center">
+                        <div className="w-full md:w-2/4 md:p-8 overflow-hidden">
+                            <Slide direction={"left"}>
+                                <img className="" loading="lazy" alt="Bartosz Jablonski logo" width=""
+                                     height=""
+                                     src="images/logo-white.svg"/>
+                            </Slide>
+                            <Slide direction={"up"}>
+                                <div>
+                                    <h1 className="text-xl">
+                                        <Translate id="home.tagline">
+                                            Personal Website | Programmer, Entrepreneur, Travel Enthusiast | Bartosz
+                                            Jabłoński - IT Blog and Travel
+                                        </Translate>
+                                    </h1>
+                                </div>
+                                <div className="my-5">
+                                    <Slide direction={"left"}><a
+                                        className="mx-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                                        href={`${localePathRoot}/about`}
+                                    >
+                                        <Translate id="home.about.button">
+                                            Check out my experience
+                                        </Translate>
+                                    </a></Slide></div>
+                            </Slide>
+                        </div>
+                        <div className="w-full md:w-2/4 md:p-8 overflow-hidden">
+                            <Slide direction={"down"}>
+                                <img className="" loading="lazy" alt="Bartosz Jablonski image" width="" height=""
+                                     src="landing_page/images/bartek_jablonski_3.png"/>
+                            </Slide>
+                        </div>
 
-                <animated.div style={animatedTexts[2]}>
-                  <div class="hero-cta">
-                    <a
-                      class="inline-flex items-center px-4 py-2 bg-blue-500 border border-transparent rounded-md font-semibold text-white hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-700 active:bg-blue-800"
-                      href={`${localePathRoot}/docs/intro`}
-                    >
-                      Getting Start
-                    </a>
-                    <a
-                      class="button"
-                      href="https://marketplace.visualstudio.com/items?itemName=CL.eide"
-                    >
-                      Install
-                    </a>
-                  </div>
-                </animated.div>
 
-              </div>
-
-              <animated.div
-                style={animatedHero}
-                class="hero-figure anime-element"
-              >
-                <svg
-                  class="placeholder"
-                  width="528"
-                  height="396"
-                  viewBox="0 0 528 396"
-                >
-                  <rect
-                    width="528"
-                    height="396"
-                    style={{ fill: "transparent" }}
-                  />
-                </svg>
-                <div
-                  class="hero-figure-box hero-figure-box-01"
-                  data-rotation="45deg"
-                ></div>
-                <div
-                  class="hero-figure-box hero-figure-box-02"
-                  data-rotation="-45deg"
-                ></div>
-                <div
-                  class="hero-figure-box hero-figure-box-03"
-                  data-rotation="0deg"
-                ></div>
-                <div
-                  class="hero-figure-box hero-figure-box-04"
-                  data-rotation="-135deg"
-                ></div>
-                <div class="hero-figure-box hero-figure-box-05"></div>
-                <div class="hero-figure-box hero-figure-box-06"></div>
-                <div class="hero-figure-box hero-figure-box-07"></div>
-                <div
-                  class="hero-figure-box hero-figure-box-08"
-                  data-rotation="-22deg"
-                ></div>
-                <div
-                  class="hero-figure-box hero-figure-box-09"
-                  data-rotation="-52deg"
-                ></div>
-                <div
-                  class="hero-figure-box hero-figure-box-10"
-                  data-rotation="-50deg"
-                ></div>
-              </animated.div>
-            </div>
-          </div>
-        </section>
-
-        <section class="features section">
-          <div class="container">
-            <div class="features-inner section-inner has-bottom-divider">
-              <div class="features-wrap">
-                <div class="feature text-center is-revealing">
-                  <div class="feature-inner">
-                    <div class="feature-icon">
-                      <img
-                        src="landing_page/images/feature-icon-01.svg"
-                        alt="Feature 01"
-                      />
                     </div>
-                    <h4 class="feature-title mt-24">
-                      Better Coding Experience
-                    </h4>
-                    <p class="text-center">
-                      On VSCode, we can get a much better coding experience.
-                      This helps improve efficiency and reduces coding errors.
-                    </p>
-                  </div>
-                </div>
-                <div class="feature text-center is-revealing">
-                  <div class="feature-inner">
-                    <div class="feature-icon">
-                      <img
-                        src="landing_page/images/feature-icon-02.svg"
-                        alt="Feature 02"
-                      />
+                </section>
+
+                <section className="my-16">
+                    <div className="container mx-auto md:px-30 flex flex-wrap flex-col md:flex-row items-center">
+                        <div className="w-full md:w-2/4 md:p-8 overflow-hidden">
+                            <Slide direction={"left"}><img className="" loading="lazy" alt="T8T Tournamets" width=""
+                                                           height=""
+                                                           src="landing_page/images/t8t.png"/></Slide>
+                        </div>
+                        <div className="w-full md:w-2/4 md:p-8 overflow-hidden">
+                            <div>
+                                <div className="flex items-center content-center justify-center mx-auto">
+
+                                    <Slide direction={"down"}><h1><Translate id="home.t8t"> T8t is discord tournament
+                                        bot where you can play for
+                                        real money.
+                                    </Translate></h1></Slide>
+
+                                    <Slide direction={"right"}>
+
+                                        <img className="w-24 m-2" loading="lazy" alt="T8t bot" width="" height=""
+                                             src="landing_page/images/t8t-logo.png"/>
+                                    </Slide>
+                                </div>
+                                <div className="flex justify-center my-5">
+                                    <Slide direction={"up"}><a
+                                        className="mx-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                                        href={`${localePathRoot}/docs/t8t/getting-started`}
+                                    >
+                                        <Translate id="home.t8t.button">
+                                            Go to documentation
+                                        </Translate>
+                                    </a></Slide>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h4 class="feature-title mt-24">
-                      Unify Development Environment
-                    </h4>
-                    <p class="text-sm mb-0">
-                      This plug-in support many kinds of compiler, project type,
-                      flasher, utility tools. You don't have to switch between
-                      multiple development environments. It's enough that work
-                      with VsCode.
-                    </p>
-                  </div>
-                </div>
-                <div class="feature text-center is-revealing">
-                  <div class="feature-inner">
-                    <div class="feature-icon">
-                      <img
-                        src="landing_page/images/feature-icon-03.svg"
-                        alt="Feature 03"
-                      />
+                </section>
+
+                <section className="my-16">
+                    <div className="container mx-auto md:px-30 flex flex-wrap flex-col md:flex-row items-center">
+
+                        <div className="w-full md:w-2/4 md:p-8 overflow-hidden">
+                            <div>
+                                <div className="flex items-center content-center justify-center mx-auto">
+
+                                    <Slide direction={"down"}><h1><Translate id="home.camply"> Camply - Polish marketplace for camps and semi-camps. Platform is for sale
+                                    </Translate></h1></Slide>
+                                </div>
+                                <div className="flex justify-center my-5">
+                                    <Slide direction={"up"}><a
+                                        className="mx-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                                        href={`${localePathRoot}/docs/camply`}
+                                    >
+                                        <Translate id="home.camply.button">
+                                            More informations
+                                        </Translate>
+                                    </a></Slide>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-full md:w-2/4 md:p-8 overflow-hidden">
+                            <Slide direction={"right"}><img className="" loading="lazy" alt="Camply" width=""
+                                                           height=""
+                                                           src="landing_page/images/camply.webp"/></Slide>
+                        </div>
                     </div>
-                    <h4 class="feature-title mt-24">
-                      Supported Many Kinds Of MCU
-                    </h4>
-                    <p class="text-sm mb-0">
-                      We support <strong>8</strong> kinds of compilers that can
-                      be used to compile{" "}
-                      <strong>
-                        mcs51/stm8/cortex-m[0/0+/3/23/33/35p/4/7]/riscv
-                      </strong>{" "}
-                      mcu projects
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-    </Layout>
-  );
+                </section>
+            </main>
+        </Layout>
+    );
 }

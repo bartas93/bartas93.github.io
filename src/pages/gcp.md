@@ -17,7 +17,7 @@ Google Kubernetes Engine and multiple deployment approaches including how to: co
 - Collect Metrics from Exporters using the Managed Service for Prometheus
 - Manage Kubernetes in Google Cloud: Challenge Lab
 
-[More details about course](https://www.cloudskillsboost.google/course_templates/783)\
+[More details about course](https://www.cloudskillsboost.google/course_templates/783) <br/>
 [Confirmation](https://www.cloudskillsboost.google/public_profiles/83a03901-1b7f-49d5-a0f1-8b6eae3c2b70/badges/5698499)
 
 ### Networking Fundamentals on Google Cloud
@@ -31,7 +31,7 @@ VPC networks and load balancers on Google Cloud
 - Internal Load Balancer
 - Networking Fundamentals on Google Cloud: Challenge Lab
 
-[More details about course](https://www.cloudskillsboost.google/course_templates/748)\
+[More details about course](https://www.cloudskillsboost.google/course_templates/748) <br/>
 [Confirmation](https://www.cloudskillsboost.google/public_profiles/83a03901-1b7f-49d5-a0f1-8b6eae3c2b70/badges/5769651)
 
 ### Create and Manage Cloud Resources
@@ -47,7 +47,7 @@ Write gcloud commands and use Cloud Shell, create and deploy virtual machines in
 - Set Up Network and HTTP Load Balancers
 - Create and Manage Cloud Resources: Challenge Lab
 
-[More details about course](https://www.cloudskillsboost.google/course_templates/648)\
+[More details about course](https://www.cloudskillsboost.google/course_templates/648) <br/>
 [Confirmation](https://www.cloudskillsboost.google/public_profiles/83a03901-1b7f-49d5-a0f1-8b6eae3c2b70/badges/5721801)
 
 ### Perform Foundational Infrastructure Tasks
@@ -67,7 +67,7 @@ Build and connect storage-centric cloud infrastructure using the basic capabilit
 - Google Cloud Pub/Sub: Qwik Start - Python
 - Perform Foundational Infrastructure Tasks in Google Cloud: Challenge Lab
 
-[More details about course](https://www.cloudskillsboost.google/course_templates/637)\
+[More details about course](https://www.cloudskillsboost.google/course_templates/637) <br/>
 [Confirmation](https://www.cloudskillsboost.google/public_profiles/83a03901-1b7f-49d5-a0f1-8b6eae3c2b70/badges/5723621)
 
 ### Serverless Firebase Development
@@ -81,7 +81,7 @@ Build serverless web apps, Import data into a Firestore database, Create a build
 - Deploy a Hugo Website with Cloud Build and Firebase Pipeline
 - Serverless Firebase Development: Challenge Lab
 
-[More details about course](https://www.cloudskillsboost.google/course_templates/649)\
+[More details about course](https://www.cloudskillsboost.google/course_templates/649) <br/>
 [Confirmation](https://www.cloudskillsboost.google/public_profiles/83a03901-1b7f-49d5-a0f1-8b6eae3c2b70/badges/5677292)
 
 ### Store, Process, and Manage Data on Google Cloud - Command Line
@@ -95,7 +95,7 @@ Cloud Storage, Cloud Functions, and Cloud Pub/Sub are all Google Cloud Platform 
 - Google Cloud Pub/Sub: Qwik Start - Command Line
 - Store, Process, and Manage Data on Google Cloud - Command Line: Challenge Lab
 
-[More details about course](https://www.cloudskillsboost.google/course_templates/659)\
+[More details about course](https://www.cloudskillsboost.google/course_templates/659) <br/>
 [Confirmation](https://www.cloudskillsboost.google/public_profiles/83a03901-1b7f-49d5-a0f1-8b6eae3c2b70/badges/5699012)
 
 ### Get Started with Pub/Sub
@@ -109,7 +109,7 @@ use Pub/Sub through the Cloud console, how Cloud Scheduler jobs can save you eff
 - Pub/Sub Lite: Qwik Start
 - Get Started with Pub/Sub: Challenge Lab
 
-[More details about course](https://www.cloudskillsboost.google/course_templates/728)\
+[More details about course](https://www.cloudskillsboost.google/course_templates/728) <br/>
 [Confirmation](https://www.cloudskillsboost.google/public_profiles/83a03901-1b7f-49d5-a0f1-8b6eae3c2b70/badges/5696259)
 
 ### Google Cloud Essentials
@@ -125,7 +125,7 @@ In this introductory-level quest, you will get hands-on practice with the Google
 - Kubernetes Engine: Qwik Start
 - Set Up Network and HTTP Load Balancers
 
-[More details about course](https://www.cloudskillsboost.google/course_templates/621)\
+[More details about course](https://www.cloudskillsboost.google/course_templates/621) <br/>
 [Confirmation](https://www.cloudskillsboost.google/public_profiles/83a03901-1b7f-49d5-a0f1-8b6eae3c2b70/badges/5699012)
 
 ### And another labs passed

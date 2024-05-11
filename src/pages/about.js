@@ -9,6 +9,7 @@ import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
 import StarIcon from "@mui/icons-material/Star";
 import Translate from "@docusaurus/Translate";
+import {Slide} from "react-awesome-reveal";
 
 export default function About() {
     const {siteConfig, i18n} = useDocusaurusContext();
@@ -25,36 +26,43 @@ export default function About() {
                 <section className="hero">
                     <div className="container mx-auto md:px-30 flex flex-wrap flex-col md:flex-row items-center">
                         <div className="w-full xl:w-2/4 md:p-8 overflow-hidden">
-                            <h1 className="text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center">
+                            <Slide direction={"left"}><h1
+                                className="text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center">
                                 <Translate id="portfolio.role">Senior Java developer</Translate>
-                            </h1>
-                            <p className="leading-normal text-base text-2xl md:text-4xl mb-8 text-center">
+                            </h1></Slide>
+                            <Slide direction={"left"} delay={100}><p
+                                className="leading-normal text-2xl md:text-4xl mb-8 text-center">
                                 <Translate id="portfolio.degree">M.Sc., engineer</Translate>
-                            </p>
-                            <div className="container flex flex-col md:flex-row items-center content-center mx-auto">
-                                <div className="flex items-center content-center justify-center mx-auto md:w-1/3">
-                                    <img className="h-8 pr-4" loading="lazy" alt="English" width="" height=""
-                                         src="portfolio/flags/Flag_of_England_Flat_Wavy-128x88.png"/>
-                                    <span><Translate id="portfolio.lang.eng">English (C1)</Translate></span>
+                            </p></Slide>
+                                <div
+                                    className="container flex flex-col md:flex-row items-center content-center mx-auto">
+                            <Slide direction={"up"} cascade={true} duration={350}>
+                                    <div className="flex items-center content-center justify-center mx-auto md:w-1/3">
+                                        <img className="h-8 pr-4" loading="lazy" alt="English" width="" height=""
+                                             src="portfolio/flags/Flag_of_England_Flat_Wavy-128x88.png"/>
+                                        <span><Translate id="portfolio.lang.eng">English (C1)</Translate></span>
+                                    </div>
+                                    <div className="flex items-center content-center justify-center mx-auto md:w-1/3">
+                                        <img className="h-8 pr-4" loading="lazy" alt="Polish" width="" height=""
+                                             src="portfolio/flags/Flag_of_Poland_Flat_Wavy-128x92.png"/>
+                                        <span><Translate id="portfolio.lang.pl">Polish (Native)</Translate></span>
+                                    </div>
+                                    <div className="flex items-center content-center justify-center mx-auto md:w-1/3">
+                                        <img className="h-8 pr-4" loading="lazy" alt="Russian" width="" height=""
+                                             src="portfolio/flags/Flag_of_Russia_Flat_Wavy-128x98.png"/>
+                                        <span><Translate id="portfolio.lang.ru">Russian (A1)</Translate></span>
+                                    </div>
+                            </Slide>
                                 </div>
-                                <div className="flex items-center content-center justify-center mx-auto md:w-1/3">
-                                    <img className="h-8 pr-4" loading="lazy" alt="Polish" width="" height=""
-                                         src="portfolio/flags/Flag_of_Poland_Flat_Wavy-128x92.png"/>
-                                    <span><Translate id="portfolio.lang.pl">Polish (Native)</Translate></span>
-                                </div>
-                                <div className="flex items-center content-center justify-center mx-auto md:w-1/3">
-                                    <img className="h-8 pr-4" loading="lazy" alt="Russian" width="" height=""
-                                         src="portfolio/flags/Flag_of_Russia_Flat_Wavy-128x98.png"/>
-                                    <span><Translate id="portfolio.lang.ru">Russian (A1)</Translate></span>
-                                </div>
-                            </div>
 
                         </div>
                         <div
                             className="flex flex-col w-full xl:w-2/4 lg:items-start overflow-y-hidden">
-                            <img
+                            <Slide direction={"down"}>
+                                <img
                                 className="mx-auto w-max"
                                 src="portfolio/bartek_jablonski_2.png"/>
+                            </Slide>
                         </div>
                     </div>
                 </section>
@@ -225,7 +233,9 @@ export default function About() {
 
                             <p className="text-sm mb-0">
                                 <Translate id="portfolio.gcp.cloud-resources.content">
-                                    Write gcloud commands and use Cloud Shell, create and deploy virtual machines in Compute Engine, run containerized applications on Google Kubernetes Engine, and configure network and HTTP load balancers.
+                                    Write gcloud commands and use Cloud Shell, create and deploy virtual machines in
+                                    Compute Engine, run containerized applications on Google Kubernetes Engine, and
+                                    configure network and HTTP load balancers.
                                 </Translate>
                             </p>
                             <div className="text-center content-center mx-auto my-5">
