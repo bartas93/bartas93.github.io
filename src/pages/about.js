@@ -22,97 +22,264 @@ export default function About() {
                 <script src="landing_page/js/preset.js"></script>
             </Head>
             <main>
-                <section class="hero">
-                    <div className="container mx-auto px-10 flex flex-wrap flex-col md:flex-row items-center">
-                        <div className="w-full xl:w-2/4 p-12 overflow-hidden">
-                            <h1 className="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
+                <section className="hero">
+                    <div className="container mx-auto md:px-30 flex flex-wrap flex-col md:flex-row items-center">
+                        <div className="w-full xl:w-2/4 md:p-8 overflow-hidden">
+                            <h1 className="text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center">
                                 <Translate id="portfolio.role">Senior Java developer</Translate>
                             </h1>
-                            <p className="leading-normal text-base md:text-2xl mb-8 text-center md:text-left">
+                            <p className="leading-normal text-base text-2xl md:text-4xl mb-8 text-center">
                                 <Translate id="portfolio.degree">M.Sc., engineer</Translate>
                             </p>
-                            <div className="container flex flex-col md:flex-row items-center">
-                                <div className="flex items-center mx-2 w-full xl:w-1/3">
+                            <div className="container flex flex-col md:flex-row items-center content-center mx-auto">
+                                <div className="flex items-center content-center justify-center mx-auto md:w-1/3">
                                     <img className="h-8 pr-4" loading="lazy" alt="English" width="" height=""
                                          src="portfolio/flags/Flag_of_England_Flat_Wavy-128x88.png"/>
                                     <span><Translate id="portfolio.lang.eng">English (C1)</Translate></span>
                                 </div>
-                                <div className="flex items-center mx-2 w-full xl:w-1/3">
+                                <div className="flex items-center content-center justify-center mx-auto md:w-1/3">
                                     <img className="h-8 pr-4" loading="lazy" alt="Polish" width="" height=""
                                          src="portfolio/flags/Flag_of_Poland_Flat_Wavy-128x92.png"/>
                                     <span><Translate id="portfolio.lang.pl">Polish (Native)</Translate></span>
                                 </div>
-                                <div className="flex items-center mx-2 w-full xl:w-1/3">
+                                <div className="flex items-center content-center justify-center mx-auto md:w-1/3">
                                     <img className="h-8 pr-4" loading="lazy" alt="Russian" width="" height=""
                                          src="portfolio/flags/Flag_of_Russia_Flat_Wavy-128x98.png"/>
                                     <span><Translate id="portfolio.lang.ru">Russian (A1)</Translate></span>
                                 </div>
                             </div>
-                            <div>
-                                <p className="leading-normal text-base md:text-2xl my-4 text-center md:text-left">
-                                    <Translate id="portfolio.skills">Skills</Translate></p>
-                                <span><Translate id="portfolio.skills.content">Programming languages: Java, Mule 4, Sql (Additionally I wrote some apps using JavaScript, Python) Frameworks: Spring, Spring Boot, Mule 4, RabbitMq, ToolJet Cloud: GCP (GKE, Functions, Storage, Pub/Sub, Scheduler, IAM, Google Shell, Firebase, Cloud Registry, App Engine) Others: Kubernetes, Docker, Maven, Git, Gitlab CI, Enterprise Architect, Agile, Scrum</Translate></span>
-                                <div class="flex flex-wrap">
-                                {/*<div class="grid grid-cols-4 md:grid-cols-5">*/}
-                                        <div class="m-2"><img class="h-16 max-w-full rounded-lg" src="portfolio/tech/docker.png"  alt="" loading="lazy" height="" width=""/></div>
-                                        <div class="m-2"><img class="h-16 max-w-full rounded-lg" src="portfolio/tech/gcp.png"  alt="" loading="lazy" height="" width=""/></div>
-                                        <div class="m-2"><img class="h-16 max-w-full rounded-lg" src="portfolio/tech/gcp i gke.png"  alt="" loading="lazy" height="" width=""/></div>
-                                        <div class="m-2"><img class="h-16 max-w-full rounded-lg" src="portfolio/tech/git.png"  alt="" loading="lazy" height="" width=""/></div>
-                                        <div class="m-2"><img class="h-16 max-w-full rounded-lg" src="portfolio/tech/gitlab.png"  alt="" loading="lazy" height="" width=""/></div>
-                                        <div class="m-2"><img class="h-16 max-w-full rounded-lg" src="portfolio/tech/java.png"  alt="" loading="lazy" height="" width=""/></div>
-                                        <div class="m-2"><img class="h-16 max-w-full rounded-lg" src="portfolio/tech/javascript.png"  alt="" loading="lazy" height="" width=""/></div>
-                                        <div class="m-2"><img class="h-16 max-w-full rounded-lg" src="portfolio/tech/maven.png"  alt="" loading="lazy" height="" width=""/></div>
-                                        <div class="m-2"><img class="h-16 max-w-full rounded-lg" src="portfolio/tech/mule.png"  alt="" loading="lazy" height="" width=""/></div>
-                                        <div class="m-2"><img class="h-16 max-w-full rounded-lg" src="portfolio/tech/python.jpg"  alt="" loading="lazy" height="" width=""/></div>
-                                        <div class="m-2"><img class="h-16 max-w-full rounded-lg" src="portfolio/tech/rabbitmq.png"  alt="" loading="lazy" height="" width=""/></div>
-                                        <div class="m-2"><img class="h-16 max-w-full rounded-lg" src="portfolio/tech/spring.jpg"  alt="" loading="lazy" height="" width=""/></div>
-                                        <div class="m-2"><img class="h-16 max-w-full rounded-lg" src="portfolio/tech/sql.png"  alt="" loading="lazy" height="" width=""/></div>
-                                        <div class="m-2"><img class="h-16 max-w-full rounded-lg" src="portfolio/tech/tooljet.png"  alt="" loading="lazy" height="" width=""/></div>
-                                </div>
-                            </div>
+
                         </div>
                         <div
-                            className="flex flex-col w-full xl:w-2/4 justify-center lg:items-start overflow-y-hidden">
+                            className="flex flex-col w-full xl:w-2/4 lg:items-start overflow-y-hidden">
                             <img
-                                className="mx-auto w-max md:w-4/5"
-                                src="portfolio/bartek_jablonski_3.png"/>
+                                className="mx-auto w-max"
+                                src="portfolio/bartek_jablonski_2.png"/>
                         </div>
                     </div>
                 </section>
-                <section>
-                    <div className="mt-12 grid grid-cols-4 sm:grid-cols-4 md:grid-cols-7">
-                        <div class="p-4 transition duration-200">
+                <section className="bg-[#242526]">
+                    <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-7">
+                        <div className="p-4 transition duration-200">
                             <img className="h-12 w-auto mx-auto" loading="lazy" alt="solwit" width="" height=""
                                  src="portfolio/companies/solwit-white.svg"/>
 
                         </div>
-                        <div class="p-4 transition duration-200">
+                        <div className="p-4 transition duration-200">
                             <img class="h-12 w-auto mx-auto" loading="lazy" alt="intel" width="" height=""
                                  src="portfolio/companies/intel.svg"/>
                         </div>
-                        <div class="p-4 transition duration-200">
+                        <div className="p-4 transition duration-200">
                             <img class="h-12 w-auto mx-auto" loading="lazy" alt="Unity Group" width="" height=""
                                  src="portfolio/companies/unitygroup.svg"/>
                         </div>
-                        <div class="p-4 transition duration-200">
+                        <div className="p-4 transition duration-200">
                             <img className="h-12 w-auto mx-auto" loading="lazy" alt="Lpp" width="" height=""
                                  src="portfolio/companies/lpp.svg"/>
                         </div>
-                        <div class="p-4 transition duration-200">
+                        <div className="p-4 transition duration-200">
                             <img class="h-12 w-auto mx-auto" loading="lazy" alt="finastra" width="" height=""
                                  src="portfolio/companies/finastra.svg"/>
                         </div>
-                        <div class="p-4 transition duration-200">
+                        <div className="p-4 transition duration-200">
                             <img class="h-12 w-auto mx-auto" loading="lazy" alt="capgemini" width="" height=""
                                  src="portfolio/companies/capgemini.svg"/>
                         </div>
-                        <div class="p-4 transition duration-200">
+                        <div className="p-4 transition duration-200">
                             <img class="h-12 w-auto mx-auto" loading="lazy" alt="envira" width="" height=""
                                  src="portfolio/companies/envira.webp"/>
                         </div>
                     </div>
                 </section>
-                <section className="mt-16">
+
+                <section>
+                    <div className="mt-16 container mx-auto px-10 flex flex-wrap flex-col md:flex-row items-center">
+                        <div
+                            className="flex flex-col w-full xl:w-1/2 justify-center items-center lg:items-start overflow-y-hidden">
+
+                            <h1 className="leading-normal text-3xl md:text-4xl my-4 text-center md:text-left">
+                                <Translate id="portfolio.skills">Skills</Translate></h1>
+                            <p><b><Translate id="portfolio.skills.languages.title">Programming
+                                languages: </Translate></b>
+                                <Translate id="portfolio.skills.languages.content">Java, Mule 4, Sql (Additionally I
+                                    wrote some apps using JavaScript, Python)</Translate></p>
+                            <p><b><Translate id="portfolio.skills.frameworks.title">Frameworks: </Translate></b>
+                                <Translate id="portfolio.skills.frameworks.content">Spring, Spring Boot, Mule 4,
+                                    RabbitMq, ToolJet Cloud: GCP (GKE, Functions, Storage,
+                                    Pub/Sub, Scheduler, IAM, Google Shell, Firebase, Cloud Registry, App
+                                    Engine)</Translate>
+                            </p>
+                            <p><b><Translate id="portfolio.skills.others.title">Others: </Translate></b>
+                                <Translate id="portfolio.skills.others.content">Kubernetes, Docker, Maven, Git,
+                                    Gitlab CI, Enterprise Architect, Agile, Scrum</Translate>
+                            </p>
+                        </div>
+                        <div
+                            className="flex flex-col w-full xl:w-1/2 items-center justify-center lg:items-start overflow-y-hidden">
+
+                            <div className="flex flex-wrap">
+                                {/*<div class="grid grid-cols-4 md:grid-cols-5">*/}
+                                <div className="m-2"><img className="h-16 max-w-full rounded-lg"
+                                                          src="portfolio/tech/docker.png" alt="" loading="lazy"
+                                                          height=""
+                                                          width=""/></div>
+                                <div className="m-2"><img className="h-16 max-w-full rounded-lg"
+                                                          src="portfolio/tech/gcp.png" alt="" loading="lazy" height=""
+                                                          width=""/></div>
+                                <div className="m-2"><img className="h-16 max-w-full rounded-lg"
+                                                          src="portfolio/tech/gcp i gke.png" alt="" loading="lazy"
+                                                          height=""
+                                                          width=""/></div>
+                                <div className="m-2"><img className="h-16 max-w-full rounded-lg"
+                                                          src="portfolio/tech/git.png" alt="" loading="lazy" height=""
+                                                          width=""/></div>
+                                <div className="m-2"><img className="h-16 max-w-full rounded-lg"
+                                                          src="portfolio/tech/gitlab.png" alt="" loading="lazy"
+                                                          height=""
+                                                          width=""/></div>
+                                <div className="m-2"><img className="h-16 max-w-full rounded-lg"
+                                                          src="portfolio/tech/java.png" alt="" loading="lazy" height=""
+                                                          width=""/></div>
+                                <div className="m-2"><img className="h-16 max-w-full rounded-lg"
+                                                          src="portfolio/tech/javascript.png" alt="" loading="lazy"
+                                                          height="" width=""/></div>
+                                <div className="m-2"><img className="h-16 max-w-full rounded-lg"
+                                                          src="portfolio/tech/maven.png" alt="" loading="lazy" height=""
+                                                          width=""/></div>
+                                <div className="m-2"><img className="h-16 max-w-full rounded-lg"
+                                                          src="portfolio/tech/mule.png" alt="" loading="lazy" height=""
+                                                          width=""/></div>
+                                <div className="m-2"><img className="h-16 max-w-full rounded-lg"
+                                                          src="portfolio/tech/python.jpg" alt="" loading="lazy"
+                                                          height=""
+                                                          width=""/></div>
+                                <div className="m-2"><img className="h-16 max-w-full rounded-lg"
+                                                          src="portfolio/tech/rabbitmq.png" alt="" loading="lazy"
+                                                          height=""
+                                                          width=""/></div>
+                                <div className="m-2"><img className="h-16 max-w-full rounded-lg"
+                                                          src="portfolio/tech/spring.jpg" alt="" loading="lazy"
+                                                          height=""
+                                                          width=""/></div>
+                                <div className="m-2"><img className="h-16 max-w-full rounded-lg"
+                                                          src="portfolio/tech/sql.png" alt="" loading="lazy" height=""
+                                                          width=""/></div>
+                                <div className="m-2"><img className="h-16 max-w-full rounded-lg"
+                                                          src="portfolio/tech/tooljet.png" alt="" loading="lazy"
+                                                          height=""
+                                                          width=""/></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section>
+                    <div className="mt-16 container mx-auto px-10 flex flex-wrap flex-col md:flex-row md:items-start">
+                        <div
+                            className="flex flex-col w-full md:w-1/3 justify-center md:items-start px-4">
+                            <div className="mx-auto justify-center">
+                                <img
+                                    src="portfolio/gcp/Create_and_Manage_Cloud_Resources.png"
+                                    alt="GCP GKE"
+                                />
+                            </div>
+                            <h4 className="mt-5">
+                                <Translate id="portfolio.gcp.gke.title">
+                                    Manage Kubernetes in Google Cloud
+                                </Translate>
+                            </h4>
+
+                            <p className="text-sm mb-0">
+                                <Translate id="portfolio.gcp.gke.content">
+                                    Google Kubernetes Engine and multiple deployment approaches including how to:
+                                    configure and build images to run and debug Docker containers, build Kubernetes
+                                    Engine clusters, and manage them with kubectl, deploy Kubernetes applications using
+                                    deployments and continuous delivery techniques.
+                                </Translate>
+                            </p>
+                            <div className="text-center content-center mx-auto my-5">
+                                <a
+                                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                                    href={`${localePathRoot}/gcp#manage-kubernetes-in-google-cloud`}
+                                >
+                                    <Translate id="portfolio.gcp.button">
+                                        More informations
+                                    </Translate>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            className="flex flex-col w-full md:w-1/3 justify-center md:items-start px-4">
+                            <div className="mx-auto justify-center">
+                                <img
+                                    src="portfolio/gcp/Create_and_Manage_Cloud_Resources.png"
+                                    alt="GCP Cloud Resources"
+                                />
+                            </div>
+                            <h4 className="mt-5">
+                                <Translate id="portfolio.gcp.cloud-resources.title">
+                                    Create and Manage Cloud Resources
+                                </Translate>
+                            </h4>
+
+                            <p className="text-sm mb-0">
+                                <Translate id="portfolio.gcp.cloud-resources.content">
+                                    Write gcloud commands and use Cloud Shell, create and deploy virtual machines in Compute Engine, run containerized applications on Google Kubernetes Engine, and configure network and HTTP load balancers.
+                                </Translate>
+                            </p>
+                            <div className="text-center content-center mx-auto my-5">
+                                <a
+                                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                                    href={`${localePathRoot}/gcp#create-and-manage-cloud-resources`}
+                                >
+                                    <Translate id="portfolio.gcp.button">
+                                        More informations
+                                    </Translate>
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            className="flex flex-col w-full md:w-1/3 justify-center md:items-start px-4">
+                            <div className="mx-auto justify-center">
+                                <img
+                                    src="portfolio/gcp/others.png"
+                                    alt="GCP others"
+                                />
+                            </div>
+                            <h4 className="mt-5">
+                                <Translate id="portfolio.gcp.other.title">
+                                    Other courses
+                                </Translate>
+                            </h4>
+
+                            <p className="text-sm mb-0">
+                                <Translate id="portfolio.gcp.other.content">
+                                    Networking Fundamentals on Google Cloud,
+                                    Perform Foundational Infrastructure Tasks,
+                                    Serverless Firebase Development,
+                                    Store, Process, and Manage Data on Google Cloud - Command Line,
+                                    Get Started with Pub/Sub,
+                                    Google Cloud Essentials,
+                                    And another labs passed
+                                </Translate>
+                            </p>
+                            <div className="text-center content-center mx-auto my-5">
+                                <a
+                                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                                    href={`${localePathRoot}/gcp`}
+                                >
+                                    <Translate id="portfolio.gcp.others.button">
+                                        More courses
+                                    </Translate>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section className="hero mt-16">
 
                     <VerticalTimeline>
                         <VerticalTimelineElement
@@ -399,76 +566,7 @@ export default function About() {
                     </VerticalTimeline>
                 </section>
 
-                <section class="features section">
-                    <div class="container">
-                        <div class="features-inner section-inner has-bottom-divider">
-                            <div class="features-wrap">
-                                <div class="feature text-center is-revealing">
-                                    <div class="feature-inner">
-                                        <div class="feature-icon">
-                                            <img
-                                                src="landing_page/images/feature-icon-01.svg"
-                                                alt="Feature 01"
-                                            />
-                                        </div>
-                                        <h4 class="feature-title mt-24">
-                                            SKILLS
-                                        </h4>
-                                        <p class="text-sm mb-0">
-                                            Programming languages: Java, Mule 4, Sql
-                                            (Additionally I wrote some apps using JavaScript, Python)
-                                            Frameworks: Spring, Spring Boot, Mule 4, RabbitMq, ToolJet
-                                            Cloud: GCP (GKE, Functions, Storage, Pub/Sub, Scheduler,
-                                            IAM, Google Shell, Firebase, Cloud Registry, App Engine)
-                                            Others: Kubernetes, Docker, Maven, Git, Gitlab CI,
-                                            Enterprise Architect, Agile, Scrum
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="feature text-center is-revealing">
-                                    <div class="feature-inner">
-                                        <div class="feature-icon">
-                                            <img
-                                                src="landing_page/images/feature-icon-02.svg"
-                                                alt="Feature 02"
-                                            />
-                                        </div>
-                                        <h4 class="feature-title mt-24">
-                                            Cloud And Other Certificates /gcp
-                                        </h4>
-                                        <p class="text-sm mb-0">
-                                            Languages
-                                            English (C1)
-                                            Polish (Native)
-                                            Russian (A1)
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="feature text-center is-revealing">
-                                    <div class="feature-inner">
-                                        <div class="feature-icon">
-                                            <img
-                                                src="landing_page/images/feature-icon-03.svg"
-                                                alt="Feature 03"
-                                            />
-                                        </div>
-                                        <h4 class="feature-title mt-24">
-                                            Visited Countries
-                                        </h4>
-                                        <p class="text-sm mb-0">
-                                            M.Sc., engineer
-                                            Senior Java developer
-                                            <strong>
-                                                mcs51/stm8/cortex-m[0/0+/3/23/33/35p/4/7]/riscv
-                                            </strong>{" "}
-                                            mcu projects
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+
             </main>
         </Layout>
     );
