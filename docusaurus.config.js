@@ -95,8 +95,8 @@ const config = {
             position: 'right',
            },
           {
-            href: 'https://github.com/bartas93/',
-            label: 'GitHub',
+            href: 'https://gitlab.com/bart_as93/',
+            label: 'Gitlab',
             position: 'right',
           },
         ],
@@ -150,6 +150,10 @@ const config = {
                 href: 'https://www.linkedin.com/in/jablonski-bartosz93/',
               },
               {
+                label: 'Gitlab',
+                href: 'https://gitlab.com/bart_as93/',
+              },
+              {
                 label: 'Github',
                 href: 'https://github.com/bartas93',
               }
@@ -186,5 +190,5 @@ const config = {
       },
     }),
 };
-
+// ["language:pl",["docusaurus_tag:default","docusaurus_tag:docs-default-current"]]"}]}
 module.exports = config;
