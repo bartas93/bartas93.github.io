@@ -21,8 +21,3 @@ $ GIT_USER=bartas93 yarn deploy
 ```
 docusaurus write-translations --locale pl
 ```
-
-# Md- translate
-If you want to translate md files you can use 
-### Init 
-`npm install -g translate-markdown`
