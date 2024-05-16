@@ -13,6 +13,7 @@ tags: [jvm, jol, string, memory]
     - gdy `coder =1` to kodowanie UTF-16 (2 bytes na znak)
     - gdy `coder = 0` to kodowanie LATIN-1 (1 byte na znak)
     - hashIsZero jest to flaga która mówi czy obliczenie hasha zostało już wykonane
+<!-- truncate -->
 
 ## JOL - String
 

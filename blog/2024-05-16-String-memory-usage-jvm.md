@@ -13,6 +13,7 @@ tags: [jvm, jol, string, memory]
   - when `coder =1` then UTF-16 encoding (2 bytes per character)
   - when `coder = 0` then LATIN-1 encoding (1 byte per character)
   - hashIsZero is a flag that tells whether the hash calculation has already been performed
+<!-- truncate -->
 
 ## JOL - String
 
