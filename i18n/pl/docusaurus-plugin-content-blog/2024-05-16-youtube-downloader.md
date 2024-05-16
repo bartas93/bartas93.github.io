@@ -15,7 +15,7 @@ Niestety narzędzia tego typu pozwalają na ściąganie pojedynczych filmów i z
 Do napisania skryptu użyjemy bibliotekę [pytube](https://pytube.io/en/latest/).
 
 Cały skrypt możecie znaleźć w repozytorium gitlab: https://gitlab.com/bart_as93/youtube-downloader
-
+<!-- truncate -->
 ### 1. Konfiguracja wstępna
 
 Pobierz repozytorium na lokalną maszynę:

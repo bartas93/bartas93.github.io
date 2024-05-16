@@ -15,7 +15,7 @@ Unfortunately, tools of this type allow you to download individual videos and bo
 We will use the library [pytube](https://pytube.io/en/latest/) to write the script .
 
 You can find the entire script in the repository gitlab: https://gitlab.com/bart_as93/youtube-downloader
-
+<!-- truncate -->
 ### 1. Initial setup
 
 Clone the repository to your local machine:

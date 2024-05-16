@@ -8,7 +8,7 @@ tags: [others]
 - Consists of a sequence of atoms (an atom is a literal - letter, digit, special character)
 - Letters are case sensitive
 - You can test regexes in online tools like: https://regex101.com/
-
+<!-- truncate -->
 # Quantifiers
 
 The quantifier tells how many occurrences of a given atom there can be. A quantifier refers to the element to the left of the quantifier. If there is no quantifier next to an atom, it means that the atom will have one occurrence (in the examples below, atom `b` always has one occurrence.

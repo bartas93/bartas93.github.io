@@ -8,7 +8,7 @@ tags: [others]
 - Składa się z sekwencji atomów (atom to literał - litera, cyfra, znak specjalny)
 - Wielkość liter ma znaczenie
 - Można przetestować regexy w narzędziach online typu: https://regex101.com/
-
+<!-- truncate -->
 # Kwantyfikatory
 
 Kwantyfikator mówi ile może być wystąpień danego atomu. Kwantyfikator odnosi się do elementu położonego po lewej stronie od kwantyfikatora. Jeżeli przy atomie nie ma kwantyfikatora to oznacza, że atom będzie miał jedno wystąpienie (w przykładach poniżej atom `b` ma zawsze jedno wystąpienie.
