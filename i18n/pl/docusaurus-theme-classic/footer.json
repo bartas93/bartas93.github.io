@@ -40,19 +40,19 @@
     "description": "The footer copyright"
   },
   "link.title.Projects": {
-    "message": "Projects",
+    "message": "Projekty",
     "description": "The title of the footer links column with title=Projects in the footer"
   },
   "link.title.External": {
-    "message": "External",
+    "message": "Zewnętrzne linki",
     "description": "The title of the footer links column with title=External in the footer"
   },
   "link.item.label.Home": {
-    "message": "Home",
+    "message": "Strona główna",
     "description": "The label of footer link with label=Home linking to /"
   },
   "link.item.label.About": {
-    "message": "About",
+    "message": "O mnie",
     "description": "The label of footer link with label=About linking to /about"
   },
   "link.item.label.T8t - discord bot": {
@@ -64,7 +64,7 @@
     "description": "The label of footer link with label=Camply linking to /docs/camply"
   },
   "link.item.label.Contact via Email": {
-    "message": "Contact via Email",
+    "message": "Skontaktuj się przez Email",
     "description": "The label of footer link with label=Contact via Email linking to mailto:jablonski.bartosz93@gmail.com"
   },
   "link.item.label.Gitlab": {

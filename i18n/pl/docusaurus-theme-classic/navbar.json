@@ -1,8 +1,4 @@
 {
-  "title": {
-    "message": "Portfolio",
-    "description": "The title in the navbar"
-  },
   "item.label.Projects": {
     "message": "Projekty",
     "description": "Navbar item with label Projects"
@@ -16,7 +12,7 @@
     "description": "Navbar item with label GitHub"
   },
   "item.label.About": {
-    "message": "About",
+    "message": "O mnie",
     "description": "Navbar item with label About"
   },
   "item.label.Gitlab": {
