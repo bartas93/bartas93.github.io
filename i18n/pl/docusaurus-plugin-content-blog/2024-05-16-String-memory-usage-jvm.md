@@ -2,7 +2,7 @@
 slug: string-in-jvm-memory
 title: Obliczanie pamięci zajmowanej przez String - JOL Footprint
 authors: bjab
-tags: [jvm, jol, string, memory]
+tags: [jvm, jol, string, heap, memory]
 ---
 # Obliczanie pamięci zajmowanej przez String - JOL Footprint
 ## W skrócie:

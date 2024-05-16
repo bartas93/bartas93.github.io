@@ -2,7 +2,7 @@
 slug: string-in-jvm-memory
 title: Calculating the memory usage by a String in JVM - JOL Footprint
 authors: bjab
-tags: [jvm, jol, string, memory]
+tags: [jvm, jol, string, heap, memory]
 ---
 # Calculating memory usage by String in JVM - JOL Footprint
 ## In short:
