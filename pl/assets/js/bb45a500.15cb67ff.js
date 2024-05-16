@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbj_blog=self.webpackChunkbj_blog||[]).push([[5660],{9616:l=>{l.exports=JSON.parse('{"label":"memory","permalink":"/pl/blog/tags/memory","allTagsPath":"/pl/blog/tags","count":2}')}}]);
