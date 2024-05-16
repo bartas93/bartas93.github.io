@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbj_blog=self.webpackChunkbj_blog||[]).push([[362],{6474:l=>{l.exports=JSON.parse('{"label":"footprint","permalink":"/blog/tags/footprint","allTagsPath":"/blog/tags","count":1}')}}]);

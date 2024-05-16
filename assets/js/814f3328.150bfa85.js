@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbj_blog=self.webpackChunkbj_blog||[]).push([[7472],{5513:l=>{l.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Hello, world.","permalink":"/blog/hello-world"},{"title":"Calculating TODO","permalink":"/blog/calculating-string-footprint"}]}')}}]);

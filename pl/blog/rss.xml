@@ -14,7 +14,7 @@
             <guid>hello-world</guid>
             <pubDate>Wed, 08 May 2024 14:50:28 GMT</pubDate>
             <description><![CDATA[PL 👋]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pl-">PL 👋<a class="hash-link" href="#pl-" title="Bezpośredni link do nagłówka">​</a></h3>]]></content:encoded>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_rv3c" id="pl-">PL 👋<a class="hash-link" href="#pl-" title="Bezpośredni link do nagłówka">​</a></h3>]]></content:encoded>
             <category>shorts</category>
             <category>hello</category>
             <category>world</category>
@@ -26,7 +26,7 @@
             <guid>calculating-string-footprint</guid>
             <pubDate>Wed, 08 May 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Short:]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="short">Short:<a class="hash-link" href="#short" title="Bezpośredni link do nagłówka">​</a></h3><p>PL</p>]]></content:encoded>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_rv3c" id="short">Short:<a class="hash-link" href="#short" title="Bezpośredni link do nagłówka">​</a></h3><p>PL</p>]]></content:encoded>
             <category>jvm</category>
             <category>jol</category>
             <category>footprint</category>
