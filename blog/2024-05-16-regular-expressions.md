@@ -4,12 +4,12 @@ title: Regular expressions
 authors: bjab
 tags: [others]
 ---
-# Regular expressions
+## In Short
 - Consists of a sequence of atoms (an atom is a literal - letter, digit, special character)
 - Letters are case sensitive
 - You can test regexes in online tools like: https://regex101.com/
 <!-- truncate -->
-# Quantifiers
+## Quantifiers
 
 The quantifier tells how many occurrences of a given atom there can be. A quantifier refers to the element to the left of the quantifier. If there is no quantifier next to an atom, it means that the atom will have one occurrence (in the examples below, atom `b` always has one occurrence.
 
@@ -36,7 +36,7 @@ The quantifier tells how many occurrences of a given atom there can be. A quanti
   e.g. `a{4}b` - translates into: `aaaab`
 
 
-# Ranges []
+## Ranges []
 
 Range means that the expression can be one letter/number from a range. The dash `-` denotes a range from, to.
 
@@ -46,7 +46,7 @@ Range means that the expression can be one letter/number from a range. The dash 
 - `[0-9]` - the expression can be any digit
 - `[a-ZąćęłńóśźżĄĘŁŃÓŚŹŻ]` - range of all Polish characters.
 
-# Groups ()
+## Groups ()
 
 - `(ab){2}` - means the expression `abab`
 
@@ -54,7 +54,7 @@ Range means that the expression can be one letter/number from a range. The dash 
 
 - `(?i)` - ignore the case of letters to the right of this character
 
-# Special signs
+## Special signs
 
 - `.` - any character
 - `$` - end of line (if we use this character at the end, it means that there is no character after the searched expression.

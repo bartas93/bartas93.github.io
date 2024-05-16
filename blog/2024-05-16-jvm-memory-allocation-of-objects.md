@@ -4,7 +4,7 @@ title: Checking memory alocation of Objects - JOL library (Java Object Layout)
 authors: bjab
 tags: [jvm, jol, heap, memory, references]
 ---
-# In short
+## In short
 
 - Each object has memory overhead (from 12 to 16 bytes for metadata headers, references (4 bytes), memory for simple data type.
 - Processors (CPU) can be 32 bit (4 byte - supporting a maximum of 4 GB RAM) or 64 bit (8 byte). This means that the CPU downloads data from RAM in batches of 4 or 8 bytes at a time.
@@ -14,7 +14,7 @@ tags: [jvm, jol, heap, memory, references]
   - When we use a 64-bit CPU with Compressed References and increase the heap memory above 32 GB, we may have problems with the application and a significant increase in the heap occupied due to the change in reference memory from 4 bytes to 8 bytes for every object on our heap- e.g. a change from -Xmx31g to -Xmx33g may result in an increase in data seizure by 40% (depending on the data)
 <!-- truncate -->
 
-# Configuration
+## Configuration
 
 To check what the memory layout looks like, we will use the library:
 
@@ -32,9 +32,9 @@ Jol is a toolbox for analyzing the layout of objects in the JVM. These tools use
 - JVMTI
 - Serviceability Agent (SA)
 
-# Available methods
+## Available methods
 
-## VM Details - `VM.current().details()` - Basic data related to our JVM
+### VM Details - `VM.current().details()` - Basic data related to our JVM
 
 ```
 # Running 64-bit HotSpot VM.
@@ -65,7 +65,7 @@ Jol is a toolbox for analyzing the layout of objects in the JVM. These tools use
   4. int and float: 4 bytes
   5. long and double 8 bytes
 
-## Types of memory usage determinations:
+### Types of memory usage determinations:
 
 - Shallow size - what the ClassLayout tells us
 - Deep size - what the footprint tells us
@@ -75,7 +75,7 @@ Jol is a toolbox for analyzing the layout of objects in the JVM. These tools use
 
 In the above example - Retained size is the memory freed after removing the Triple reference - only Ai + Ci is freed and Bi is used by Pair. These additional references complicate the retained size. Retained size is always between shallow and deep size.
 
-## Class layout - ClassLayout (shallow size)
+### Class layout - ClassLayout (shallow size)
 
 `ClassLayout.parseClass(Basket.class).toPrintable(b1))`
 
@@ -149,7 +149,7 @@ Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
   - class fields - the rest of the bytes in our example 2x4 bytes for int fields.
 - optional shift to 8 bytes (in in our case 4 bytes of offset)
 
-## Footprint (Deep size)
+### Footprint (Deep size)
 
 If we have any references to other objects in our analyzed object, the ClassLayout will only show an additional 4 bytes per reference (It will not take into account the content of the object we are referring to) - in this case, it is worth using FootPrint which will show how much memory the entire object takes up, including the object inside .
 
@@ -221,7 +221,7 @@ ExampleClass: 12 bytes for metadata + 3x 4 bytes for int + 4 bytes for reference
 28 bytes + 4 bytes (8 byte alignment) = **32 bytes**
 InnerClass: 12 bytes for metadata + 2x 4 bytes for inte = 20 bytes - it is not a multiple of 8 bytes (alignment), so: 20 bytes + 4 bytes = 24 bytes.
 
-## Compressed vs Uncompressed References
+### Compressed vs Uncompressed References
 
 Due to the fact that it is aligned to multiples of 8 bytes, we can use an interesting property of writing such numbers in binary form. All multiples of 8 in binary form end with a minimum of three zeros (on the right). Knowing this regularity, JVM programmers took advantage of this property by shifting it 3 bits to the left, which gives us an additional 3 bits to write memory addresses. Which increases the range from 2^32~4GB to 2^(32+3)~32GB.
 
@@ -239,7 +239,7 @@ If we want to use more than 32 GB of heap and we want to use compressed referenc
 
 Formula for maximum heap size: 4GB * ObjectAlignmentInBytes. - but remember that allignments increases for each existing object which consequently increases the size of each object. It won't always pay off.
 
-## What is padding/alligment gap (internal space losses)
+### What is padding/alligment gap (internal space losses)
 
 Byte padding to a multiple of 8 bytes can take 2 forms
 
@@ -261,7 +261,7 @@ Space losses: 4 bytes internal + 8 bytes external = 12 bytes total
 
 After 12 bytes related to the header, an internal alignment/padding gap = 4 bytes was added. so that extracting the long takes place in one CPU process. (so that the long variable is at offset 16)
 
-## Field Packing - Packing of fields
+### Field Packing - Packing of fields
 
 The order in which fields are packed in memory is determined by the JVM, not the declaration of fields in the class implementation. This is to make it easier to condense multiples of 8 bytes so that, for example, an int is not split into 2 data extracts of 8 bytes each.
 
@@ -284,7 +284,7 @@ OFFSET  SIZE      TYPE DESCRIPTION                               VALUE
      28     4           (loss due to the next object alignment)
 ```
 
-# Other examples - Checking memory size for objects
+## Other examples - Checking memory size for objects
 
 ### Array:
 

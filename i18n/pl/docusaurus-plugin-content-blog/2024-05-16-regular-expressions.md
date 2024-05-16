@@ -4,12 +4,12 @@ title: Wyrażenia regularne
 authors: bjab
 tags: [others]
 ---
-# Wyrażenia regularne
+## W skrócie
 - Składa się z sekwencji atomów (atom to literał - litera, cyfra, znak specjalny)
 - Wielkość liter ma znaczenie
 - Można przetestować regexy w narzędziach online typu: https://regex101.com/
 <!-- truncate -->
-# Kwantyfikatory
+## Kwantyfikatory
 
 Kwantyfikator mówi ile może być wystąpień danego atomu. Kwantyfikator odnosi się do elementu położonego po lewej stronie od kwantyfikatora. Jeżeli przy atomie nie ma kwantyfikatora to oznacza, że atom będzie miał jedno wystąpienie (w przykładach poniżej atom `b` ma zawsze jedno wystąpienie.
 
@@ -36,7 +36,7 @@ Kwantyfikator mówi ile może być wystąpień danego atomu. Kwantyfikator odnos
   np. `a{4}b` - przekłada się na: `aaaab`
 
 
-# Zakresy []
+## Zakresy []
 
 Zakres oznacza, że wyrażenie może być jedną literą/cyfrą z zakresu. Myślnik `-` oznacza zakres od, do.
 
@@ -46,15 +46,15 @@ Zakres oznacza, że wyrażenie może być jedną literą/cyfrą z zakresu. Myśl
 - `[0-9]` - wyrażeniem może być każda cyfra
 - `[a-ZąćęłńóśźżĄĘŁŃÓŚŹŻ]` - zakres wszystkich polskich znaków.
 
-# Grupy ()
+## Grupy ()
 
 - `(ab){2}` - oznacza wyrażenie `abab`
 
-# Flagi
+## Flagi
 
 - `(?i)` - ignorowanie wielkości liter z prawej strony od tego znaku
 
-# Znaki specjalne
+## Znaki specjalne
 
 - `.` - każdy znak
 - `$` - koniec wiersza (jeśli użyjemy ten znak na końcu to oznacza, że nie ma żadnego znaku po poszukiwanym wyrażeniu.
