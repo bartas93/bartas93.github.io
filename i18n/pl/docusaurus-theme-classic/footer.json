@@ -38,5 +38,37 @@
   "copyright": {
     "message": "Copyright © 2024 Bartosz Jabłoński",
     "description": "The footer copyright"
+  },
+  "link.title.Projects": {
+    "message": "Projects",
+    "description": "The title of the footer links column with title=Projects in the footer"
+  },
+  "link.title.External": {
+    "message": "External",
+    "description": "The title of the footer links column with title=External in the footer"
+  },
+  "link.item.label.Home": {
+    "message": "Home",
+    "description": "The label of footer link with label=Home linking to /"
+  },
+  "link.item.label.About": {
+    "message": "About",
+    "description": "The label of footer link with label=About linking to /about"
+  },
+  "link.item.label.T8t - discord bot": {
+    "message": "T8t - discord bot",
+    "description": "The label of footer link with label=T8t - discord bot linking to /docs/category/t8t---discord-tournaments"
+  },
+  "link.item.label.Camply": {
+    "message": "Camply",
+    "description": "The label of footer link with label=Camply linking to /docs/camply"
+  },
+  "link.item.label.Contact via Email": {
+    "message": "Contact via Email",
+    "description": "The label of footer link with label=Contact via Email linking to mailto:jablonski.bartosz93@gmail.com"
+  },
+  "link.item.label.Gitlab": {
+    "message": "Gitlab",
+    "description": "The label of footer link with label=Gitlab linking to https://gitlab.com/bart_as93/"
   }
 }

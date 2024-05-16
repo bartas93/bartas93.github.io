@@ -1,14 +1,14 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Następny",
     "description": "The label for version current"
   },
   "sidebar.defaultSidebar.category.T8T - Discord Tournaments": {
-    "message": "T8T - Discord Tournaments",
+    "message": "T8T - Turnieje na discordzie",
     "description": "The label for category T8T - Discord Tournaments in sidebar defaultSidebar"
   },
   "sidebar.defaultSidebar.category.T8T - Discord Tournaments.link.generated-index.description": {
-    "message": "T8T - Discord bot to create paid tournaments",
+    "message": "T8T - Discord bot do tworzenia płatnych turniejów",
     "description": "The generated-index page description for category T8T - Discord Tournaments in sidebar defaultSidebar"
   }
 }

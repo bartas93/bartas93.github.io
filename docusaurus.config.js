@@ -24,6 +24,11 @@ const config = {
   deploymentBranch: 'main',
   plugins:[
     'plugin-image-zoom',
+    ['@docusaurus/plugin-google-gtag',
+    {
+      trackingID: 'G-DZ5M330L5C',
+      anonymizeIP: false,
+    }],
       async function myPlugin(context, options) {
     return {
       name: "docusaurus-tailwindcss",
@@ -152,10 +157,6 @@ const config = {
               {
                 label: 'Gitlab',
                 href: 'https://gitlab.com/bart_as93/',
-              },
-              {
-                label: 'Github',
-                href: 'https://github.com/bartas93',
               }
             ],
           },

@@ -383,5 +383,155 @@
   },
   "Bartosz Jabłoński - IT Blog and Travel": {
     "message": "Bartosz Jabłoński - IT Blog and TravelPL "
+  },
+  "portfolio.role": {
+    "message": "Senior Java developer"
+  },
+  "portfolio.degree": {
+    "message": "Magister inżynier"
+  },
+  "portfolio.lang.eng": {
+    "message": "Angielski (C1)"
+  },
+  "portfolio.lang.pl": {
+    "message": "Polski (Ojczysty)"
+  },
+  "portfolio.lang.ru": {
+    "message": "Rosyjski (A1)"
+  },
+  "portfolio.skills": {
+    "message": "Umiejętności"
+  },
+  "portfolio.skills.languages.title": {
+    "message": "Języki programowania:"
+  },
+  "portfolio.skills.languages.content": {
+    "message": "Java, Mule 4, Sql (Dodatkowo używałem w projektach prywatnych JavaScript, Python, ReactJs)"
+  },
+  "portfolio.skills.frameworks.title": {
+    "message": "Frameworki:"
+  },
+  "portfolio.skills.frameworks.content": {
+    "message": "Spring, Spring Boot, Mule 4, RabbitMq, ToolJet Cloud: GCP (GKE, Functions, Storage, Pub/Sub, Scheduler, IAM, Google Shell, Firebase, Cloud Registry, App Engine)"
+  },
+  "portfolio.skills.others.title": {
+    "message": "Inne:"
+  },
+  "portfolio.skills.others.content": {
+    "message": "Kubernetes, Docker, Maven, Git, Gitlab CI, Enterprise Architect, Agile, Scrum"
+  },
+  "portfolio.gcp.gke.title": {
+    "message": "Manage Kubernetes in Google Cloud"
+  },
+  "portfolio.gcp.gke.content": {
+    "message": "Google Kubernetes Engine i różne podejścia do wdrażania, w tym sposoby: konfigurowania i tworzenia obrazów do uruchamiania i debugowania kontenerów Docker, tworzenia klastrów Kubernetes Engine i zarządzania nimi za pomocą kubectl, wdrażania aplikacji Kubernetes przy użyciu wdrożeń i technik ciągłego dostarczania (CD)."
+  },
+  "portfolio.gcp.button": {
+    "message": "Więcej informacji"
+  },
+  "portfolio.gcp.cloud-resources.title": {
+    "message": "Create and Manage Cloud Resources"
+  },
+  "portfolio.gcp.cloud-resources.content": {
+    "message": "Pisanie poleceń gcloud i korzystanie z Cloud Shell, twórzenie i wdrażanie maszyn wirtualnych w Compute Engine, uruchamianie aplikacji kontenerowych w Google Kubernetes Engine oraz konfigurowanie systemu równoważenia obciążenia sieciowego i HTTP (load balancing)."
+  },
+  "portfolio.gcp.other.title": {
+    "message": "Inne kursy"
+  },
+  "portfolio.gcp.other.content": {
+    "message": "Networking Fundamentals on Google Cloud, Perform Foundational Infrastructure Tasks, Serverless Firebase Development, Store, Process, and Manage Data on Google Cloud - Command Line, Get Started with Pub/Sub, Google Cloud Essentials, I inne zdane kursy"
+  },
+  "portfolio.gcp.others.button": {
+    "message": "Więcej certyfikatów"
+  },
+  "portfolio.work.camply.name": {
+    "message": "Camply.pl"
+  },
+  "portfolio.work.camply.role": {
+    "message": "Właściciel/Senior Backend Developer"
+  },
+  "portfolio.work.camply.description": {
+    "message": "Camply.pl była polską platformą typu marketplace dla kolonii i obozów. Byłem odpowiedzialny za backend aplikacji, bazę danych, finanse, rozliczenia oraz za część kontaktów z klientami i partnerami. Aktywnie uczestniczyłem w działaniach sprzedażowych i marketingowych. W ramach Camply podpisaliśmy kontrakty z 73 biurami podróży i sprzedaliśmy setki rezerwacji. Byłem zaangażowany w backend: Spring boot, query-dsl, Mysql, Gitlab CI, Google Kubernetes Engine (GKE), Google functions, Thymeleaf, rabbitMq, App Engine GCP, Google storage, OAuth, Firebase, Tooljet"
+  },
+  "portfolio.work.camply.more": {
+    "message": "Więcej informacji"
+  },
+  "portfolio.work.lpp.name": {
+    "message": "LPP SA (przez Unity Group)"
+  },
+  "portfolio.work.lpp.role": {
+    "message": "Senior Java Developer (Praca zdalna)"
+  },
+  "portfolio.work.lpp.description": {
+    "message": "Projekt integracyjny dla światowej firmy z branży odzieżowej (LPP SA- House, Cropp, Sinsey itp.). Celem było dostarczenie wielokanałowego rozwiązania do zarządzania zasobami magazynowymi. Technologie: Java17, Kubernetes, Mule 4, Mule3, Spring boot, Spring Integration, RabbitMq, ActiveMq, Oracle db, ApacheIgnite, Grafana, Prometheus, Enterprise Architect"
+  },
+  "portfolio.work.unity-group.name": {
+    "message": "Unity Group"
+  },
+  "portfolio.work.unity-group.role": {
+    "message": "Java Developer (Praca zdalna)"
+  },
+  "portfolio.work.unity-group.description": {
+    "message": "Projekt integracyjny dla firmy dostarczającej artykuły gospodarstwa domowego. Celem było automatyzacja i usprawnienie zarządzania cenami i zapasami. Technologie: Mule, Spring boot(JHipster), RabbitMq"
+  },
+  "portfolio.work.finastra.name": {
+    "message": "Finastra (przez Solwit SA)"
+  },
+  "portfolio.work.finastra.role": {
+    "message": "Java Developer"
+  },
+  "portfolio.work.finastra.description": {
+    "message": "Całość komunikacji w języku angielskim. Stos technologiczny: Spring boot 2+, Java 8,  MongoDb, Postman, Oauth2, OpenId Connect, Kubernetes, Azure, Jira, Microservices. Projektowanie i wdrażanie oprogramowania, analiza i rozwiązywanie złożonych problemów inżynierskich, tworzenie i przeglądanie wymagań oraz projektowanie funkcjonalne, diagnozowanie i rozwiązywanie problemów z oprogramowaniem usterek, integracji i testowania oprogramowania"
+  },
+  "portfolio.work.solwit.name": {
+    "message": "Solwit SA"
+  },
+  "portfolio.work.solwit.role": {
+    "message": "Junior Java Developer"
+  },
+  "portfolio.work.solwit.envira.description": {
+    "message": "01.2019 – 07.2019 (projekt Envira) – Spring, Spring MVC, JSP,JavaScript, Jooq, Docker, Jira, Bamboo, Upsource, Git"
+  },
+  "portfolio.work.solwit.intel.description": {
+    "message": "05.2018 - 12.2018 (projekt Intel) – Spring boot, Angular 5(TypeScript), Gradle, Jenkins, Docker, PostgreSql, VSTS, Git"
+  },
+  "portfolio.work.capgemini.name": {
+    "message": "Capgemini"
+  },
+  "portfolio.work.capgemini.role": {
+    "message": "Internship Java Developer"
+  },
+  "portfolio.work.lpp.capgemini": {
+    "message": "Przez 3 miesiące uczyłem się podstaw Java, Spring, jpa, sql, javascript, angular 4 pod okiem ekspertów Capgemini."
+  },
+  "portfolio.education.pwr.name": {
+    "message": "Politechnika Wrocławska"
+  },
+  "portfolio.education.degree.master": {
+    "message": "Drugi stopień - Informatyka"
+  },
+  "portfolio.education.degree.master.thesis": {
+    "message": "Praca magisterska polegała na zaprojektowaniu aplikacji do zarządzania restauracją - FeedServ. Następnie zaimplementowano moduł do zarządzania zamówieniami i zbadano użyteczność (UX) tego modułu (wykorzystane technologie: angular 4 i spring boot)."
+  },
+  "portfolio.education.degree.bachelor": {
+    "message": "Pierwszy stopień - Budownictwo"
+  },
+  "home.tagline": {
+    "message": "Strona osobista | Programista, przedsiębiorca, miłośnik podróży | Bartosz Jabłoński - Blog o IT i podróżach"
+  },
+  "home.about.button": {
+    "message": "Sprawdź moje CV"
+  },
+  "home.t8t": {
+    "message": "T8t to discord bot gdzie możesz tworzyć turnieje i rywalizować za prawdziwe pieniądze."
+  },
+  "home.t8t.button": {
+    "message": "Dokumentacja"
+  },
+  "home.camply": {
+    "message": "Camply - Polski marketplace dla kolonii i obozów. Platforma jest na sprzedaż."
+  },
+  "home.camply.button": {
+    "message": "Więcej informacji"
   }
 }

@@ -1,8 +1,8 @@
 {
-  "label": "T8T - Discord Tournaments",
+  "label": "T8T - Discord Bot do turniejów",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "T8T - Discord bot to create paid tournaments"
+    "description": "T8T - Discord bot do tworzenia płatnych turniejów"
   }
 }

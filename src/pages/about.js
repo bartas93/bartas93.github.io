@@ -318,8 +318,8 @@ export default function About() {
                                 <Translate id="portfolio.work.camply.description">
                                     Camply.pl was polish marketplace for camps and semi-camps. I was
                                     responsible for the application backend, database,
-                                    finances,settlements and for part of contacts with customers and
-                                    partners.I actively participated in sales and marketing
+                                    finances, settlements and for part of contacts with customers and
+                                    partners. I actively participated in sales and marketing
                                     activities. Camply has signed 73 travel agencies and sold
                                     hundreds reservations.Backend involved: Spring boot, query-dsl,
                                     Mysql, Gitlab CI, GoogleKubernetes Engine, Google cloud
@@ -487,7 +487,7 @@ export default function About() {
                             contentArrowStyle={{
                                 borderRight: "7px solid  rgba(255, 255, 255, 0.1)",
                             }}
-                            date="06.2020 - 01.2023"
+                            date="07.2017 - 10.2017"
                             iconStyle={{background: "#25c2a0", color: "#fff"}}
                             icon={<WorkIcon/>}
                         >
