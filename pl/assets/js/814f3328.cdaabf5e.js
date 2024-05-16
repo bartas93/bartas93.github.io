@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbj_blog=self.webpackChunkbj_blog||[]).push([[7472],{5513:l=>{l.exports=JSON.parse('{"title":"Najnowsze posty","items":[{"title":"Hello, world PL.","permalink":"/pl/blog/hello-world"},{"title":"Calculating PL TODO","permalink":"/pl/blog/calculating-string-footprint"}]}')}}]);
