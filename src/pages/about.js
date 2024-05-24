@@ -26,17 +26,17 @@ export default function About() {
                 <section className="hero">
                     <div className="container mx-auto md:px-30 flex flex-wrap flex-col md:flex-row items-center">
                         <div className="w-full xl:w-2/4 md:p-8 overflow-hidden">
-                            <Slide direction={"left"}><h1
+                            <Slide triggerOnce={true} direction={"left"}><h1
                                 className="text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center">
                                 <Translate id="portfolio.role">Senior Java developer</Translate>
                             </h1></Slide>
-                            <Slide direction={"left"} delay={100}><p
+                            <Slide triggerOnce={true} direction={"left"} delay={100}><p
                                 className="leading-normal text-2xl md:text-4xl mb-8 text-center">
                                 <Translate id="portfolio.degree">M.Sc., engineer</Translate>
                             </p></Slide>
                                 <div
                                     className="container flex flex-col md:flex-row items-center content-center mx-auto">
-                            <Slide direction={"up"} cascade={true} duration={350}>
+                            <Slide triggerOnce={true} direction={"up"} cascade={true} duration={350}>
                                     <div className="flex items-center content-center justify-center mx-auto md:w-1/3">
                                         <img className="h-8 pr-4" loading="lazy" alt="English" width="" height=""
                                              src="https://bartas93.github.io/portfolio/flags/Flag_of_England_Flat_Wavy-128x88.png"/>
@@ -58,7 +58,7 @@ export default function About() {
                         </div>
                         <div
                             className="flex flex-col w-full xl:w-2/4 lg:items-start overflow-y-hidden">
-                            <Slide direction={"down"}>
+                            <Slide triggerOnce={true} direction={"down"}>
                                 <img
                                 className="mx-auto w-max"
                                 src="https://bartas93.github.io/portfolio/bartek_jablonski_2.png"/>

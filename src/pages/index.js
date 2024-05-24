@@ -24,12 +24,12 @@ export default function Home() {
 
                     <div className="container mx-auto md:px-30 flex flex-wrap flex-col md:flex-row items-center">
                         <div className="w-full md:w-2/4 md:p-8 overflow-hidden">
-                            <Slide direction={"left"}>
+                            <Slide triggerOnce={true} direction={"left"}>
                                 <img className="" loading="lazy" alt="Bartosz Jablonski logo" width=""
                                      height=""
                                      src="images/logo-white.svg"/>
                             </Slide>
-                            <Slide direction={"up"}>
+                            <Slide triggerOnce={true} direction={"up"}>
                                 <div>
                                     <h1 className="text-xl">
                                         <Translate id="home.tagline">
@@ -39,7 +39,7 @@ export default function Home() {
                                     </h1>
                                 </div>
                                 <div className="my-5">
-                                    <Slide direction={"left"}><a
+                                    <Slide triggerOnce={true} direction={"left"}><a
                                         className="mx-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                                         href={`${localePathRoot}/about`}
                                     >
@@ -50,7 +50,7 @@ export default function Home() {
                             </Slide>
                         </div>
                         <div className="w-full md:w-2/4 md:p-8 overflow-hidden">
-                            <Slide direction={"down"}>
+                            <Slide triggerOnce={true} direction={"down"}>
                                 <img className="" loading="lazy" alt="Bartosz Jablonski image" width="" height=""
                                      src="landing_page/images/bartek_jablonski_3.png"/>
                             </Slide>
@@ -63,7 +63,7 @@ export default function Home() {
                 <section className="my-16">
                     <div className="container mx-auto md:px-30 flex flex-wrap flex-col md:flex-row items-center">
                         <div className="w-full md:w-2/4 md:p-8 overflow-hidden">
-                            <Slide direction={"left"}><img className="" loading="lazy" alt="T8T Tournamets" width=""
+                            <Slide triggerOnce={true} direction={"left"}><img className="" loading="lazy" alt="T8T Tournamets" width=""
                                                            height=""
                                                            src="landing_page/images/t8t.png"/></Slide>
                         </div>
@@ -71,19 +71,19 @@ export default function Home() {
                             <div>
                                 <div className="flex items-center content-center justify-center mx-auto">
 
-                                    <Slide direction={"down"}><h1><Translate id="home.t8t"> T8t is discord tournament
+                                    <Slide triggerOnce={true} direction={"down"}><h1><Translate id="home.t8t"> T8t is discord tournament
                                         bot where you can play for
                                         real money.
                                     </Translate></h1></Slide>
 
-                                    <Slide direction={"right"}>
+                                    <Slide triggerOnce={true} direction={"right"}>
 
                                         <img className="w-24 m-2" loading="lazy" alt="T8t bot" width="" height=""
                                              src="landing_page/images/t8t-logo.png"/>
                                     </Slide>
                                 </div>
                                 <div className="flex justify-center my-5">
-                                    <Slide direction={"up"}><a
+                                    <Slide triggerOnce={true} direction={"up"}><a
                                         className="mx-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                                         href={`${localePathRoot}/docs/t8t/getting-started`}
                                     >
@@ -104,11 +104,11 @@ export default function Home() {
                             <div>
                                 <div className="flex items-center content-center justify-center mx-auto">
 
-                                    <Slide direction={"down"}><h1><Translate id="home.camply"> Camply - Polish marketplace for camps and semi-camps. Platform is for sale
+                                    <Slide triggerOnce={true} direction={"down"}><h1><Translate id="home.camply"> Camply - Polish marketplace for camps and semi-camps. Platform is for sale
                                     </Translate></h1></Slide>
                                 </div>
                                 <div className="flex justify-center my-5">
-                                    <Slide direction={"up"}><a
+                                    <Slide triggerOnce={true} direction={"up"}><a
                                         className="mx-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                                         href={`${localePathRoot}/docs/camply`}
                                     >
@@ -120,7 +120,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="w-full md:w-2/4 md:p-8 overflow-hidden">
-                            <Slide direction={"right"}><img className="" loading="lazy" alt="Camply" width=""
+                            <Slide triggerOnce={true} direction={"right"}><img className="" loading="lazy" alt="Camply" width=""
                                                            height=""
                                                            src="landing_page/images/camply.webp"/></Slide>
                         </div>
