@@ -39,17 +39,17 @@ export default function About() {
                             <Slide direction={"up"} cascade={true} duration={350}>
                                     <div className="flex items-center content-center justify-center mx-auto md:w-1/3">
                                         <img className="h-8 pr-4" loading="lazy" alt="English" width="" height=""
-                                             src="portfolio/flags/Flag_of_England_Flat_Wavy-128x88.png"/>
+                                             src="https://bartas93.github.io/portfolio/flags/Flag_of_England_Flat_Wavy-128x88.png"/>
                                         <span><Translate id="portfolio.lang.eng">English (C1)</Translate></span>
                                     </div>
                                     <div className="flex items-center content-center justify-center mx-auto md:w-1/3">
                                         <img className="h-8 pr-4" loading="lazy" alt="Polish" width="" height=""
-                                             src="portfolio/flags/Flag_of_Poland_Flat_Wavy-128x92.png"/>
+                                             src="https://bartas93.github.io/portfolio/flags/Flag_of_Poland_Flat_Wavy-128x92.png"/>
                                         <span><Translate id="portfolio.lang.pl">Polish (Native)</Translate></span>
                                     </div>
                                     <div className="flex items-center content-center justify-center mx-auto md:w-1/3">
                                         <img className="h-8 pr-4" loading="lazy" alt="Russian" width="" height=""
-                                             src="portfolio/flags/Flag_of_Russia_Flat_Wavy-128x98.png"/>
+                                             src="https://bartas93.github.io/portfolio/flags/Flag_of_Russia_Flat_Wavy-128x98.png"/>
                                         <span><Translate id="portfolio.lang.ru">Russian (A1)</Translate></span>
                                     </div>
                             </Slide>
@@ -61,7 +61,7 @@ export default function About() {
                             <Slide direction={"down"}>
                                 <img
                                 className="mx-auto w-max"
-                                src="portfolio/bartek_jablonski_2.png"/>
+                                src="https://bartas93.github.io/portfolio/bartek_jablonski_2.png"/>
                             </Slide>
                         </div>
                     </div>
@@ -70,32 +70,32 @@ export default function About() {
                     <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-7">
                         <div className="p-4 transition duration-200">
                             <img className="h-12 w-auto mx-auto" loading="lazy" alt="solwit" width="" height=""
-                                 src="portfolio/companies/solwit-white.svg"/>
+                                 src="https://bartas93.github.io/portfolio/companies/solwit-white.svg"/>
 
                         </div>
                         <div className="p-4 transition duration-200">
                             <img class="h-12 w-auto mx-auto" loading="lazy" alt="intel" width="" height=""
-                                 src="portfolio/companies/intel.svg"/>
+                                 src="https://bartas93.github.io/portfolio/companies/intel.svg"/>
                         </div>
                         <div className="p-4 transition duration-200">
                             <img class="h-12 w-auto mx-auto" loading="lazy" alt="Unity Group" width="" height=""
-                                 src="portfolio/companies/unitygroup.svg"/>
+                                 src="https://bartas93.github.io/portfolio/companies/unitygroup.svg"/>
                         </div>
                         <div className="p-4 transition duration-200">
                             <img className="h-12 w-auto mx-auto" loading="lazy" alt="Lpp" width="" height=""
-                                 src="portfolio/companies/lpp.svg"/>
+                                 src="https://bartas93.github.io/portfolio/companies/lpp.svg"/>
                         </div>
                         <div className="p-4 transition duration-200">
                             <img class="h-12 w-auto mx-auto" loading="lazy" alt="finastra" width="" height=""
-                                 src="portfolio/companies/finastra.svg"/>
+                                 src="https://bartas93.github.io/portfolio/companies/finastra.svg"/>
                         </div>
                         <div className="p-4 transition duration-200">
                             <img class="h-12 w-auto mx-auto" loading="lazy" alt="capgemini" width="" height=""
-                                 src="portfolio/companies/capgemini.svg"/>
+                                 src="https://bartas93.github.io/portfolio/companies/capgemini.svg"/>
                         </div>
                         <div className="p-4 transition duration-200">
                             <img class="h-12 w-auto mx-auto" loading="lazy" alt="envira" width="" height=""
-                                 src="portfolio/companies/envira.webp"/>
+                                 src="https://bartas93.github.io/portfolio/companies/envira.webp"/>
                         </div>
                     </div>
                 </section>
@@ -128,52 +128,52 @@ export default function About() {
                             <div className="flex flex-wrap">
                                 {/*<div class="grid grid-cols-4 md:grid-cols-5">*/}
                                 <div className="m-2"><img className="h-16 max-w-full rounded-lg"
-                                                          src="portfolio/tech/docker.png" alt="" loading="lazy"
+                                                          src="https://bartas93.github.io/portfolio/tech/docker.png" alt="" loading="lazy"
                                                           height=""
                                                           width=""/></div>
                                 <div className="m-2"><img className="h-16 max-w-full rounded-lg"
-                                                          src="portfolio/tech/gcp.png" alt="" loading="lazy" height=""
+                                                          src="https://bartas93.github.io/portfolio/tech/gcp.png" alt="" loading="lazy" height=""
                                                           width=""/></div>
                                 <div className="m-2"><img className="h-16 max-w-full rounded-lg"
-                                                          src="portfolio/tech/gcp i gke.png" alt="" loading="lazy"
+                                                          src="https://bartas93.github.io/portfolio/tech/gcp i gke.png" alt="" loading="lazy"
                                                           height=""
                                                           width=""/></div>
                                 <div className="m-2"><img className="h-16 max-w-full rounded-lg"
-                                                          src="portfolio/tech/git.png" alt="" loading="lazy" height=""
+                                                          src="https://bartas93.github.io/portfolio/tech/git.png" alt="" loading="lazy" height=""
                                                           width=""/></div>
                                 <div className="m-2"><img className="h-16 max-w-full rounded-lg"
-                                                          src="portfolio/tech/gitlab.png" alt="" loading="lazy"
+                                                          src="https://bartas93.github.io/portfolio/tech/gitlab.png" alt="" loading="lazy"
                                                           height=""
                                                           width=""/></div>
                                 <div className="m-2"><img className="h-16 max-w-full rounded-lg"
-                                                          src="portfolio/tech/java.png" alt="" loading="lazy" height=""
+                                                          src="https://bartas93.github.io/portfolio/tech/java.png" alt="" loading="lazy" height=""
                                                           width=""/></div>
                                 <div className="m-2"><img className="h-16 max-w-full rounded-lg"
-                                                          src="portfolio/tech/javascript.png" alt="" loading="lazy"
+                                                          src="https://bartas93.github.io/portfolio/tech/javascript.png" alt="" loading="lazy"
                                                           height="" width=""/></div>
                                 <div className="m-2"><img className="h-16 max-w-full rounded-lg"
-                                                          src="portfolio/tech/maven.png" alt="" loading="lazy" height=""
+                                                          src="https://bartas93.github.io/portfolio/tech/maven.png" alt="" loading="lazy" height=""
                                                           width=""/></div>
                                 <div className="m-2"><img className="h-16 max-w-full rounded-lg"
-                                                          src="portfolio/tech/mule.png" alt="" loading="lazy" height=""
+                                                          src="https://bartas93.github.io/portfolio/tech/mule.png" alt="" loading="lazy" height=""
                                                           width=""/></div>
                                 <div className="m-2"><img className="h-16 max-w-full rounded-lg"
-                                                          src="portfolio/tech/python.jpg" alt="" loading="lazy"
+                                                          src="https://bartas93.github.io/portfolio/tech/python.jpg" alt="" loading="lazy"
                                                           height=""
                                                           width=""/></div>
                                 <div className="m-2"><img className="h-16 max-w-full rounded-lg"
-                                                          src="portfolio/tech/rabbitmq.png" alt="" loading="lazy"
+                                                          src="https://bartas93.github.io/portfolio/tech/rabbitmq.png" alt="" loading="lazy"
                                                           height=""
                                                           width=""/></div>
                                 <div className="m-2"><img className="h-16 max-w-full rounded-lg"
-                                                          src="portfolio/tech/spring.jpg" alt="" loading="lazy"
+                                                          src="https://bartas93.github.io/portfolio/tech/spring.jpg" alt="" loading="lazy"
                                                           height=""
                                                           width=""/></div>
                                 <div className="m-2"><img className="h-16 max-w-full rounded-lg"
-                                                          src="portfolio/tech/sql.png" alt="" loading="lazy" height=""
+                                                          src="https://bartas93.github.io/portfolio/tech/sql.png" alt="" loading="lazy" height=""
                                                           width=""/></div>
                                 <div className="m-2"><img className="h-16 max-w-full rounded-lg"
-                                                          src="portfolio/tech/tooljet.png" alt="" loading="lazy"
+                                                          src="https://bartas93.github.io/portfolio/tech/tooljet.png" alt="" loading="lazy"
                                                           height=""
                                                           width=""/></div>
                             </div>
@@ -188,7 +188,7 @@ export default function About() {
                             className="flex flex-col w-full md:w-1/3 justify-center md:items-start px-4">
                             <div className="mx-auto justify-center">
                                 <img
-                                    src="portfolio/gcp/Create_and_Manage_Cloud_Resources.png"
+                                    src="https://bartas93.github.io/portfolio/gcp/Create_and_Manage_Cloud_Resources.png"
                                     alt="GCP GKE"
                                 />
                             </div>
@@ -221,7 +221,7 @@ export default function About() {
                             className="flex flex-col w-full md:w-1/3 justify-center md:items-start px-4">
                             <div className="mx-auto justify-center">
                                 <img
-                                    src="portfolio/gcp/Create_and_Manage_Cloud_Resources.png"
+                                    src="https://bartas93.github.io/portfolio/gcp/Create_and_Manage_Cloud_Resources.png"
                                     alt="GCP Cloud Resources"
                                 />
                             </div>
@@ -253,7 +253,7 @@ export default function About() {
                             className="flex flex-col w-full md:w-1/3 justify-center md:items-start px-4">
                             <div className="mx-auto justify-center">
                                 <img
-                                    src="portfolio/gcp/others.png"
+                                    src="https://bartas93.github.io/portfolio/gcp/others.png"
                                     alt="GCP others"
                                 />
                             </div>
@@ -308,7 +308,7 @@ export default function About() {
                             <h3 className="vertical-timeline-element-title">
                                 <Translate id="portfolio.work.camply.name">Camply.pl</Translate>
                             </h3>
-                            <img className="mt-3" className="mt-3" src="portfolio/camply.webp" alt="camply"/>
+                            <img className="mt-3" className="mt-3" src="https://bartas93.github.io/portfolio/camply.webp" alt="camply"/>
                             <h4 className="vertical-timeline-element-subtitle">
                                 <Translate id="portfolio.work.camply.role">
                                     Owner/Senior Backend Developer
@@ -358,7 +358,7 @@ export default function About() {
                                     LPP SA (via Unity Group)
                                 </Translate>
                             </h3>
-                            <img className="mt-3" src="portfolio/LPP.jpg" alt="LPP SA"/>
+                            <img className="mt-3" src="https://bartas93.github.io/portfolio/LPP.jpg" alt="LPP SA"/>
                             <h4 className="vertical-timeline-element-subtitle">
                                 <Translate id="portfolio.work.lpp.role">
                                     Senior Java Developer (Remote)
@@ -459,7 +459,7 @@ export default function About() {
                             <h3 className="vertical-timeline-element-title">
                                 <Translate id="portfolio.work.solwit.name">Solwit SA</Translate>
                             </h3>
-                            <img className="mt-3" src="portfolio/Solwi-sa.jpg" alt="Solwit SA"/>
+                            <img className="mt-3" src="https://bartas93.github.io/portfolio/Solwi-sa.jpg" alt="Solwit SA"/>
                             <h4 className="vertical-timeline-element-subtitle">
                                 <Translate id="portfolio.work.solwit.role">
                                     Junior Java Developer
@@ -496,7 +496,7 @@ export default function About() {
                                     Capgemini
                                 </Translate>
                             </h3>
-                            <img className="mt-3" src="portfolio/capgemini-office.jpg" alt="Capgemini"/>
+                            <img className="mt-3" src="https://bartas93.github.io/portfolio/capgemini-office.jpg" alt="Capgemini"/>
                             <h4 className="vertical-timeline-element-subtitle">
                                 <Translate id="portfolio.work.capgemini.role">
                                     Internship Java Developer
@@ -529,7 +529,7 @@ export default function About() {
                                     Wroclaw University of Science and Technology
                                 </Translate>
                             </h3>
-                            <img className="mt-3" src="portfolio/pwr.jpg" alt="Politechnika Wroclawska"/>
+                            <img className="mt-3" src="https://bartas93.github.io/portfolio/pwr.jpg" alt="Politechnika Wroclawska"/>
                             <h4 className="vertical-timeline-element-subtitle">
                                 <Translate id="portfolio.education.degree.master">
                                     Second degree of Computer Science
