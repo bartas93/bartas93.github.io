@@ -447,6 +447,15 @@
   "portfolio.work.camply.name": {
     "message": "Camply.pl"
   },
+  "portfolio.travel.asia.description": {
+    "message": "Moja żona i ja podróżowaliśmy po Azji Południowo-Wschodniej. Odwiedziliśmy i poznaliśmy kulturę Wietnamu, Tajlandii i Kambodży."
+  },
+  "portfolio.travel.asia.name": {
+    "message": "Podróż po Azji południowo-wschodniej"
+  },
+  "portfolio.work.silkycoders.description": {
+    "message": "Projekt Mtms - Platforma umożliwiająca sprawną obsługę harmonogramowania i wysyłki towarów dla logistyki LPP, Projekt Locus - Platforma integrująca ponad 20 firm kurierskich na rynku europejskim."
+  },
   "portfolio.work.camply.role": {
     "message": "Właściciel/Senior Backend Developer"
   },

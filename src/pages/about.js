@@ -311,7 +311,9 @@ export default function About() {
                             </h3>
                             <img className="mt-3" src="https://bartas93.github.io/portfolio/silky-coders.jpg" alt="silky-coders"/>
                             <p>
-                                Mtms project - Platform that enables efficient handling of scheduling and shipping of goods for LPP logistics, Locus project - Integration platform of more then 20 couriers in the European market.
+                                <Translate id="portfolio.work.silkycoders.description">
+                                    Mtms project - Platform that enables efficient handling of scheduling and shipping of goods for LPP logistics, Locus project - Integration platform of more then 20 couriers in the European market.
+                                </Translate>
                             </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -328,11 +330,13 @@ export default function About() {
                             icon={<HikingIcon/>}
                         >
                             <h3 className="vertical-timeline-element-title">
-                                Southeast Asia Travel
+                                <Translate id="portfolio.travel.asia.name">Southeast Asia Travel</Translate>
                             </h3>
                             <img className="mt-3" src="https://bartas93.github.io/portfolio/travel.jpg" alt="travel"/>
                             <p>
-                                My wife and I traveled through Southeast Asia. We visited and learned about the culture of Vietnam, Thailand and Cambodia.
+                                <Translate id="portfolio.travel.asia.description">
+                                    My wife and I traveled through Southeast Asia. We visited and learned about the culture of Vietnam, Thailand and Cambodia.
+                                </Translate>
                             </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
