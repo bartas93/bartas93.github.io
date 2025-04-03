@@ -8,6 +8,7 @@ import Head from "@docusaurus/Head";
 import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
 import StarIcon from "@mui/icons-material/Star";
+import HikingIcon from '@mui/icons-material/Hiking';
 import Translate from "@docusaurus/Translate";
 import {Slide} from "react-awesome-reveal";
 
@@ -292,6 +293,130 @@ export default function About() {
                 <section className="hero mt-16">
 
                     <VerticalTimeline>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{
+                                background: "rgba(255, 255, 255, 0.1)",
+                                color: "#fff",
+                            }}
+                            contentArrowStyle={{
+                                borderRight: "7px solid  rgba(255, 255, 255, 0.1)",
+                            }}
+                            date="06.2024- until now"
+                            iconStyle={{background: "#25c2a0", color: "#fff"}}
+                            icon={<WorkIcon/>}
+                        >
+                            <h3 className="vertical-timeline-element-title">
+                                Silky Coders (LPP)
+                            </h3>
+                            <img className="mt-3" src="https://bartas93.github.io/portfolio/silky-coders.jpg" alt="silky-coders"/>
+                            <p>
+                                Mtms project - Platform that enables efficient handling of scheduling and shipping of goods for LPP logistics, Locus project - Integration platform of more then 20 couriers in the European market.
+                            </p>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{
+                                background: "rgba(255, 255, 255, 0.1)",
+                                color: "#fff",
+                            }}
+                            contentArrowStyle={{
+                                borderRight: "7px solid  rgba(255, 255, 255, 0.1)",
+                            }}
+                            date=""
+                            iconStyle={{background: "rgb(233, 30, 99)", color: "#fff"}}
+                            icon={<HikingIcon/>}
+                        >
+                            <h3 className="vertical-timeline-element-title">
+                                Southeast Asia Travel
+                            </h3>
+                            <img className="mt-3" src="https://bartas93.github.io/portfolio/travel.jpg" alt="travel"/>
+                            <p>
+                                My wife and I traveled through Southeast Asia. We visited and learned about the culture of Vietnam, Thailand and Cambodia.
+                            </p>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{
+                                background: "rgba(255, 255, 255, 0.1)",
+                                color: "#fff",
+                            }}
+                            contentArrowStyle={{
+                                borderRight: "7px solid  rgba(255, 255, 255, 0.1)",
+                            }}
+                            date="03.2020 - 08.2023"
+                            iconStyle={{background: "#25c2a0", color: "#fff"}}
+                            icon={<WorkIcon/>}
+                        >
+                            <h3 className="vertical-timeline-element-title">
+                                <Translate id="portfolio.work.camply.name">Camply.pl</Translate>
+                            </h3>
+                            <img className="mt-3" className="mt-3" src="https://bartas93.github.io/portfolio/camply.webp" alt="camply"/>
+                            <h4 className="vertical-timeline-element-subtitle">
+                                <Translate id="portfolio.work.camply.role">
+                                    Owner/Senior Backend Developer
+                                </Translate>
+                            </h4>
+                            <p>
+                                <Translate id="portfolio.work.camply.description">
+                                    Camply.pl was polish marketplace for camps and semi-camps. I was
+                                    responsible for the application backend, database,
+                                    finances, settlements and for part of contacts with customers and
+                                    partners. I actively participated in sales and marketing
+                                    activities. Camply has signed 73 travel agencies and sold
+                                    hundreds reservations.Backend involved: Spring boot, query-dsl,
+                                    Mysql, Gitlab CI, GoogleKubernetes Engine, Google cloud
+                                    functions, Thymeleaf, rabbitMq,App Engine GCP, Google storage,
+                                    OAuth, Firebase, Tooljet
+                                </Translate>
+                            </p>
+                            <div className="text-center mt-5">
+
+                                <a
+                                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                                    href={`${localePathRoot}/docs/camply`}
+                                >
+                                    <Translate id="portfolio.work.camply.more">
+                                        More informations
+                                    </Translate>
+                                </a>
+                            </div>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{
+                                background: "rgba(255, 255, 255, 0.1)",
+                                color: "#fff",
+                            }}
+                            contentArrowStyle={{
+                                borderRight: "7px solid  rgba(255, 255, 255, 0.1)",
+                            }}
+                            date="06.2020 - 01.2023"
+                            iconStyle={{background: "#25c2a0", color: "#fff"}}
+                            icon={<WorkIcon/>}
+                        >
+                            <h3 className="vertical-timeline-element-title">
+                                <Translate id="portfolio.work.lpp.name">
+                                    LPP SA (via Unity Group)
+                                </Translate>
+                            </h3>
+                            <img className="mt-3" src="https://bartas93.github.io/portfolio/LPP.jpg" alt="LPP SA"/>
+                            <h4 className="vertical-timeline-element-subtitle">
+                                <Translate id="portfolio.work.lpp.role">
+                                    Senior Java Developer (Remote)
+                                </Translate>
+                            </h4>
+                            <p>
+                                <Translate id="portfolio.work.lpp.description">
+                                    Integration project for world company in clothing industry
+                                    (LPP-House,Cropp,Sinsey etc.). The goal is to provide
+                                    multichannel stock management solution.Technologies: Java17,
+                                    Kubernetes, Mule 4, Mule3, Spring boot,Spring integration,
+                                    RabbitMq, ActiveMq, oracle db, ApacheIgnite, Grafana,
+                                    Prometheus, Enterprise Architect
+                                </Translate>
+                            </p>
+                        </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             contentStyle={{
