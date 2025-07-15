@@ -2,8 +2,9 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 // import tailwindPlugin from "./plugins/tailwind-config.cjs"; // add this
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
