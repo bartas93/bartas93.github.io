@@ -26,7 +26,7 @@ const config = {
     'plugin-image-zoom',
     ['@docusaurus/plugin-google-gtag',
     {
-      trackingID: 'G-DZ5M330L5C',
+      trackingID: 'GTM-KK8FCJX8',
       anonymizeIP: false,
     }],
       async function myPlugin(context, options) {
