@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbj_blog=self.webpackChunkbj_blog||[]).push([[9042],{8792:e=>{e.exports=JSON.parse('{"authors":[{"name":"Bartek Jab\u0142o\u0144ski","title":"Backend Cloud Developer","url":"https://bartas93.github.io","imageURL":"/pl/images/bartek_jablonski_2.png","key":"bjab","page":null,"count":4}]}')}}]);
