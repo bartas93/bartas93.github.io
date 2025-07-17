@@ -25,6 +25,7 @@ const config = {
   deploymentBranch: 'main',
   plugins:[
     'plugin-image-zoom',
+    'docusaurus-plugin-hotjar',
     ['@docusaurus/plugin-google-gtag',
     {
       trackingID: 'GTM-KK8FCJX8',
@@ -191,6 +192,9 @@ const config = {
           background: 'rgba(0,0,0,0.4)',
           scrollOffset: 0,
         },
+      },
+      hotjar: {
+        applicationId: 6466964,
       },
     }),
 };
