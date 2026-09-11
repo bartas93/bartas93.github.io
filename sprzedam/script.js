@@ -8,6 +8,54 @@ function updateMobileCall() {
 updateMobileCall();
 window.addEventListener('scroll', updateMobileCall, { passive: true });
 
+document.querySelectorAll('a[href^="tel:"]').forEach((link) => {
+  link.addEventListener('click', () => {
+    window.trackAnalyticsEvent?.('phone_call_click', {
+      button_location: link.dataset.phoneLocation || 'unknown'
+    });
+  });
+});
+
+async function copyPhoneNumber() {
+  const phoneNumber = '797 961 732';
+
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(phoneNumber);
+    return;
+  }
+
+  const field = document.createElement('textarea');
+  field.value = phoneNumber;
+  field.setAttribute('readonly', '');
+  field.style.position = 'fixed';
+  field.style.opacity = '0';
+  document.body.appendChild(field);
+  field.select();
+  const copied = document.execCommand('copy');
+  field.remove();
+  if (!copied) throw new Error('Copy command failed');
+}
+
+document.querySelectorAll('[data-copy-phone]').forEach((button) => {
+  const originalLabel = button.textContent;
+
+  button.addEventListener('click', async () => {
+    try {
+      await copyPhoneNumber();
+      button.textContent = 'Skopiowano ✓';
+      window.trackAnalyticsEvent?.('copy_phone_number', {
+        button_location: button.dataset.copyLocation || 'unknown'
+      });
+    } catch {
+      button.textContent = 'Nie udało się skopiować';
+    }
+
+    window.setTimeout(() => {
+      button.textContent = originalLabel;
+    }, 2400);
+  });
+});
+
 if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
